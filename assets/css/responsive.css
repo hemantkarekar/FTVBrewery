@@ -1,0 +1,53 @@
+/* Smaller than standard 1050 (devices and browsers) */
+
+@media all and (max-width: 1919px) {
+    .logo {
+        width: 5%;
+    }
+    .centerNavbar a {
+        width: 12%;
+        right: 8%;
+    }
+}
+
+@media all and (max-width: 1279px) {
+    .logo {
+        width: 7%;
+        margin-left: 15px;
+    }
+    .centerNavbar a {
+        width: 15%;
+        right: 10%;
+    }
+    .rightNavbar {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .logo {
+        width: 10%;
+    }
+    .centerNavbar a {
+        width: 20%;
+        right: 15%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .logo {
+        width: 15%;
+    }
+    .centerNavbar a {
+        width: 35%;
+        right: 22%;
+    }
+    #nav-icon {
+        right: 15px;
+        background-size: 85% 90%;
+        background-position: center top;
+    }
+    .rightNavbar {
+        width: 100%;
+    }
+}

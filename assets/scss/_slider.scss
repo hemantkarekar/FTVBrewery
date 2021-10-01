@@ -1,0 +1,35 @@
+.carousel-wrapper {
+    width: 27vw;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+
+    .carousel-slide {
+        width: 100%;
+        height: 100%;
+        animation-name: slide-infinite;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes slide-infinite {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-27vw);
+    }
+
+    66% {
+        transform: translateX(-54vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}

@@ -1,0 +1,347 @@
+<?php
+include "includes/header.php";
+?>
+
+<div class="desktop">
+<div class="container-fluid">
+	<div class="row micheladamintro">
+
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 1.mp4" type="video/mp4"/>
+        </video>
+		
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row micheladamintro2">
+		<img src="images/fashion.png" class="micheladamintro2img2">
+		<img src="">
+		<img src="images/michel1.png" class="micheladamintro2img1">
+		
+		<h1>INTRODUCTION</h1>
+		<p>Michel Adam Lisowski is the founder and chairman of Fashion TV. He founded FashionTV to create a global fashion platform that focuses on fashion, luxury, and beauty. He is known as ‘FASHION MAESTRO’ for his remarkable contribution to the fashion, luxury, and lifestyle industry across the world.<span id="dots">...</span><span id="more9">He is the founder of multiple FashionTV destinations that are spread across the world’s leading cities like Tel Aviv, Cairo, Bangkok, Abu Dhabi, Kuwait, Shanghai, Prague, Vienna, etc.</span></p>
+		<p onclick="myFunction()" id="myBtn" style="margin-top: -147px;
+    position: relative;">Read more</p>
+		
+
+			
+	</div>
+</div>
+
+
+
+
+
+<div class="container-fluid">
+	<div class="row micheladabackground">
+		<img src="images/homeintro2img1.png" class="micheladabackgroundimg1">
+		
+		<h1>BACKGROUND</h1>
+		<p>Michel Adam Lisowski was born on April 16, 1950, in Warsaw and is of Jewish descent. He moved to Vienna in 1958, along with his family. Later, he was granted a scholarship for Mathematics at Princeton University.<span id="dots1">...</span><span id="more10"><br>He started a textile business in Thailand called "Eden Group". In 1997, he started FashionTV, an international fashion and lifestyle broadcasting television channel in France. Currently, he is the Chairman of Fashion TV (FTV) and also runs the franchise "love-f-cafe" in various European cities, including Monaco and Milan.<br>In 2013, he returned to Vienna with the idea of opening a café at Hotel Bristol next to the opera house. The café is still a renowned destination for many fashion shows, after-parties, and other fashion events. The cafe became very popular amongst the fashion community.</span></p>
+		<p onclick="myFunction1()" id="myBtn1">Read more</p>
+
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 2.mp4" type="video/mp4"/>
+        </video>
+        <img src="images/fashion.png" class="micheladabackgroundimg2">
+    </div>
+</div>
+
+
+
+
+
+<div class="container-fluid">
+	<div class="row micheladamn">
+		<!-- <img src="images/fashion.png" class="micheladamnimg1"> -->
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 2.mp4" type="video/mp4"/>
+        </video>
+        <img src="images/verticalogo.png" class="micheladamnimg1">
+
+		
+	</div>
+</div>
+
+
+
+<div class="container-fluid">
+	<div class="row micheljourney">
+		<img src="images/ftvlargelogo.png" class="micheljourneyimg1">
+		 <img src="images/journeybg.png" class="micheljourneyimg2">
+		 <img src="images/m1.png" class="micheljourneyimg3">
+		<h1>JOURNEY</h1>
+		<p>In 1958 his journey began when he travelled from Poland to Vienna and decided to venture into a subject that was the closest to his heart which is Fashion.<span id="dots2">...</span><span id="more11"><br>At first, he started his own textile business in Thailand under a company called the Eden Group. Later he moved to France where Michel Adam Lisowski started a channel that is dedicated to fashion, it broadcasted 24*7. This led to the birth of FashionTV, in 1997. Today, Fashion TV is loved globally and is the world’s largest fashion media.<br>Later in 2013, he opened "love-f-cafe" Fashion, one of his most successful projects. This cafe is dedicated to fashion enthusiasts. The café is known as a UTOPIA for fashion. It hosts many fashion shows, after-parties, and other fashion events. This cafe is in very high demand amongst the fashion community.</span></p>
+		<p onclick="myFunction2()" id="myBtn2" style="margin-top: -710px;">Read more</p> 
+
+		
+	</div>
+</div>
+
+
+
+
+<div class="container-fluid">
+	<div class="row michelfuture">
+		<img src="images/bevglass1.png" class="michelfutureimg1">
+		<img src="images/whitepatch.png" class="michelfutureimg2">
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 3.mp4" type="video/mp4"/>
+        </video>
+		<h1 class="michelfuturehead1">Future</h1>
+		<p>With Fashion TV, Michel Adam Lisowski is committed to building partnerships that propel the partners towards success.<span id="dots3">...</span><span id="more12"><br>Michel Adam Lisowski's entrepreneurial mindset makes him think beyond, and he is always interested in taking fashion to new heights. He is keenly aware of the potential and reach of FTV in India. The brand is introducing various LUXURIOUS FTV businesses in the world’s second most populated country.</span></p>
+		<p onclick="myFunction3()" id="myBtn3" style="margin-top: -257px;">Read more</p> 
+	</div>
+</div>
+
+
+
+
+<div class="container-fluid">
+	<div class="row michelmessage">
+		<img src="images/michal4.png" class="michelmessageimg1">
+		<img src="images/m2.png" class="michelmessageimg2">
+		<h1>MESSAGE</h1>
+		<p>Hi, this is Michel Adam, founder and chairman of FTV.<br>I invite you to be a part of FashionTV with FTV Brewery and likewise, many other business opportunities presented just for the people of India. Looking forward to welcoming you on board.</p>
+		<img src="images/fashion.png" class="michelmessageimg3">
+		<img src="images/Beerlogo.png" class="michelmessageimg4">
+		
+	</div>
+</div>
+</div>
+</div>
+
+<hr>
+
+
+<div class="mobile">
+	<section class="michelintro">
+	
+	<div class="view">
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 1.mp4" type="video/mp4"/>
+        </video>
+	</div>
+	<div>
+		<img src="images/fashion.png" class="img1">
+		<img src="images/michel1.png" class="img2">
+	</div>
+	<h1>INTRODUCTION</h1>
+	<p>Michel Adam Lisowski is the founder and chairman of Fashion TV. He founded FashionTV to create a global fashion platform that focuses on fashion, luxury, and beauty. He is known as ‘FASHION MAESTRO’ for his remarkable contribution to the fashion, luxury, and lifestyle industry across the world.<span id="dots11"></span><span id="more14">He is the founder of multiple FashionTV destinations that are spread across the world’s leading cities like Tel Aviv, Cairo, Bangkok, Abu Dhabi, Kuwait, Shanghai, Prague, Vienna, etc.</span></p>
+	<p onclick="myFunction11()" id="myBtn11" style="margin-top: -10px;">Read more</p>
+	<img src="images/diamondlogo.png">
+</section>
+
+
+	<section class="michelbg">
+		<img src="images/homeintro2img1.png" class="michelbgimg1">
+		<div class="view">
+			<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 2.mp4" type="video/mp4"/>
+        	</video>
+		</div>
+		<h1>BACKGROUND</h1>
+		<p>Michel Adam Lisowski was born on April 16, 1950, in Warsaw and is of Jewish descent. He moved to Vienna in 1958, along with his family. Later, he was granted a scholarship for Mathematics at Princeton University.<span id="dots12"></span><span id="more15"><br>He started a textile business in Thailand called "Eden Group". In 1997, he started FashionTV, an international fashion and lifestyle broadcasting television channel in France. Currently, he is the Chairman of Fashion TV (FTV) and also runs the franchise "love-f-cafe" in various European cities, including Monaco and Milan.<br>In 2013, he returned to Vienna with the idea of opening a café at Hotel Bristol next to the opera house. The café is still a renowned destination for many fashion shows, after-parties, and other fashion events. The cafe became very popular amongst the fashion community.</span></p>
+		<p onclick="myFunction12()" id="myBtn12">Read more</p>
+
+		
+        <img src="images/fashion.png" class="michelbgimg2">
+	</section>
+
+
+	<section class="micheladam">
+		<div class="view">
+		<video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 3.mp4" type="video/mp4"/>
+        </video>
+        </div>
+	</section>
+
+	<section class="adamjourney">
+		<img src="images/ftvlargelogo.png" class="adamjourneyimg1">
+		<img src="images/journeybg.png" class="adamjourneyimg2">
+	 	<img src="images/m1.png" class="adamjourneyimg3">
+	 	<h1>JOURNEY</h1>
+		<p>In 1958 his journey began when he travelled from Poland to Vienna and decided to venture into a subject that was the closest to his heart which is Fashion.<span id="dots13">...</span><span id="more16"><br>At first, he started his own textile business in Thailand under a company called the Eden Group. Later he moved to France where Michel Adam Lisowski started a channel that is dedicated to fashion, it broadcasted 24*7. This led to the birth of FashionTV, in 1997. Today, Fashion TV is loved globally and is the world’s largest fashion media.<br>Later in 2013, he opened "love-f-cafe" Fashion, one of his most successful projects. This cafe is dedicated to fashion enthusiasts. The café is known as a UTOPIA for fashion. It hosts many fashion shows, after-parties, and other fashion events. This cafe is in very high demand amongst the fashion community.</span></p>
+		<p onclick="myFunction13()" id="myBtn13">Read more</p> 
+	</section>
+
+	<section class="adamfuture">
+		<img src="images/bevglass1.png" class="adamfutureimg1">
+		
+			   <video class="video-fluid mob-video" id="vControls" autoplay loop muted>
+            <source src="video/Brewery- Michel Adam 1.mp4" type="video/mp4"/>
+        </video>
+        <img src="images/whitepatch.png" class="adamfutureimg2">
+	<!-- 	<div class="view">
+		
+		</div> -->
+		<h1>Future</h1>
+		<p>With Fashion TV, Michel Adam Lisowski is committed to building partnerships that propel the partners towards success.<span id="dots14"></span><span id="more17"><br>Michel Adam Lisowski's entrepreneurial mindset makes him think beyond, and he is always interested in taking fashion to new heights. He is keenly aware of the potential and reach of FTV in India. The brand is introducing various LUXURIOUS FTV businesses in the world’s second most populated country.</span></p>
+		<p onclick="myFunction14()" id="myBtn14">Read more</p>
+
+		
+	</section>
+	<section class="adammessage">
+		<img src="images/michal4.png" class="adammessageimg1">
+		<img src="images/m2.png" class="adammessageimg2">
+		<h1>MESSAGE</h1>
+		<p>Hi, this is Michel Adam, founder and chairman of FTV.<br>I invite you to be a part of FashionTV with FTV Brewery and likewise, many other business opportunities presented just for the people of India. Looking forward to welcoming you on board.</p>
+		<img src="images/fashion.png" class="adammessageimg3">
+		<img src="images/Beerlogo.png" class="adammessageimg4">
+		
+	</section>
+</div>
+
+
+
+
+<script type="text/javascript">
+	function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more9");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+	function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText = document.getElementById("more10");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+	function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText = document.getElementById("more11");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+	function myFunction3() {
+  var dots3 = document.getElementById("dots3");
+  var moreText = document.getElementById("more12");
+  var btnText = document.getElementById("myBtn3");
+
+  if (dots3.style.display === "none") {
+    dots3.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots3.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+function myFunction11() {
+  var dots11 = document.getElementById("dots11");
+  var moreText = document.getElementById("more14");
+  var btnText = document.getElementById("myBtn11");
+
+  if (dots11.style.display === "none") {
+    dots11.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots11.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+function myFunction12() {
+  var dots12 = document.getElementById("dots12");
+  var moreText = document.getElementById("more15");
+  var btnText = document.getElementById("myBtn12");
+
+  if (dots12.style.display === "none") {
+    dots12.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots12.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myFunction13() {
+  var dots13 = document.getElementById("dots13");
+  var moreText = document.getElementById("more16");
+  var btnText = document.getElementById("myBtn13");
+
+  if (dots13.style.display === "none") {
+    dots13.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots13.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+function myFunction14() {
+  var dots13 = document.getElementById("dots13");
+  var moreText = document.getElementById("more17");
+  var btnText = document.getElementById("myBtn13");
+
+  if (dots13.style.display === "none") {
+    dots13.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots13.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+
+
+
+
+
+
+
+
+<?php
+include "includes/footer.php";
+?>
