@@ -371,14 +371,14 @@
   z-index: 0;
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 50%;
   height: 200px;
 }
 
 .index .beverages .f-logo img {
   height: 100%;
   width: auto;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .index .beverages .image-video-abstracts {
