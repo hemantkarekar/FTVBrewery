@@ -300,6 +300,8 @@
           animation-timing-function: ease-in;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 @-webkit-keyframes slide-infinite {
