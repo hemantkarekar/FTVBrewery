@@ -38,7 +38,7 @@
             <div class="intro">
                 <div class="text-content">
                     <div class="image">
-                        <img src="images/homeintro2img1.png" alt="">
+                        <img src="assets/media/images/homeintro2img1.png" alt="">
                     </div>
                     <div class="content">
                         <h1>INTRODUCTION</h1>
@@ -54,19 +54,19 @@
                 </div>
                 <div class="video-content">
                     <video class="video-fluid mob-video" id="vControls" autoplay loop muted>
-                        <source src="video/Home Page/Brewery-Intro3.mp4" type="video/mp4" />
+                        <source src="assets/media/videos/Home Page/Brewery-Intro3.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
             <div class="stamp">
-                <img src="images/circlelogo.png" alt="">
+                <img src="assets/media/images/circlelogo.png" alt="">
             </div>
         </section>
         <section class="section potential">
             <div class="potential-content">
                 <div class="video-content">
                     <video class="video-fluid mob-video" id="vControls" autoplay loop muted>
-                        <source src="video/Intro Brewery.mp4" type="video/mp4" />
+                        <source src="assets/media/videos/Intro Brewery.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div class="text-content">
@@ -85,19 +85,19 @@
                 </div>
             </div>
             <div class="stamp">
-                <img src="images/beerlogo.png" alt="">
+                <img src="assets/media/images/beerlogo.png" alt="">
             </div>
         </section>
         <section class="section mission">
             <div class="abstract">
-                <div class="glass-splash"><img src="images/glass-splash.png" alt=""></div>
-                <div class="philo-text"><img src="images/philosophy.png" alt=""></div>
-                <div class="f-logo"><img src="images/ftvsmalllogo.png" alt=""></div>
+                <div class="glass-splash"><img src="assets/media/images/glass-splash.png" alt=""></div>
+                <div class="philo-text"><img src="assets/media/images/philosophy.png" alt=""></div>
+                <div class="f-logo"><img src="assets/media/images/ftvsmalllogo.png" alt=""></div>
             </div>
             <div class="mission-content-wrap">
                 <div class="mission-content">
                     <div class="image-content">
-                        <img src="images/home-mission41.png" alt="">
+                        <img src="assets/media/images/home-mission41.png" alt="">
                     </div>
                     <div class="text-content">
                         <div class="mission-carousel">
@@ -145,32 +145,64 @@
         </section>
         <section class="section beverages">
             <div class="f-logo">
-                <img src="images/ftvlargelogo.png" alt="">
+                <img src="assets/media/images/ftvlargelogo.png" alt="">
             </div>
             <div class="image-video-abstracts">
                 <div class="sect img1">
-                    <img src="images/beverageimg1.png" alt="">
+                    <img src="assets/media/images/beverageimg1.png" alt="">
                 </div>
                 <div class="sect video">
                     <video autoplay loop muted>
-                        <source src="video/Home Page/Beverages.mp4">
+                        <source src="assets/media/videos/Home Page/Beverages.mp4">
                     </video>
                 </div>
                 <div class="sect img2">
-                    <img src="images/beverageimg2.png" alt="">
+                    <img src="assets/media/images/beverageimg2.png" alt="">
                 </div>
+            </div>
+            <div class="down-video">
+                <video autoplay loop muted>
+                    <source src="assets/media/videos/Home Page/Ambeince-Brewery.mp4">
+                </video>
+            </div>
+            <div class="f-logo down">
+                <img src="assets/media/images/ftvlargelogo.png" alt="">
             </div>
             <div class="section-title">
                 <h1>Beverages</h1>
             </div>
+            <div class="beer-glass">
+                <img src="./assets/media/images/bevglass1.png" alt="">
+            </div>
+            <div class="elegant-heading">
+                <h1>Elegant Relaxing Instagram Worthy Experience</h1>
+            </div>
+            <div class="stamp">
+                <img src="assets/media/images/circlelogo.png" alt="">
+            </div>
         </section>
-        <section class="section gallery"></section>
+        <section class="section gallery">
+            <div class="f-brand-logo">
+                <img src="assets/media/images/ftvsmalllogo.png" alt="">
+            </div>
+            <div class="section-title">
+                <div class="title-content">
+                    <div class="content">
+                        <h1>Gallery</h1>
+                        <img src="assets/media/images/philosophy.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section-gallery-wrap">
+                <div class="main-gallery">
+                    <div class="slider"></div>
+                </div>
+            </div>
+        </section>
         <div class="desktop">
-
-
             <div class="container-fluid">
                 <div class="row homepotential">
-                    <img src="images/potencial.png" />
+                    <img src="assets/media/assets/media/images/potencial.png" />
 
                     <h1 class="homepotentialhead1">POTENTIAL</h1>
                     <h1 class="homepotentialhead2">IN INDIA</h1>
@@ -185,10 +217,10 @@
             <div class="container-fluid">
                 <div class="row homephilosophy">
                     <h1>PHILOSOPHY</h1>
-                    <!-- <img src="images/philosophy.png">
+                    <!-- <img src="assets/media/images/philosophy.png">
 				<h1>MISSION<h1> -->
-                    <img src="images/Beerlogo.png" style="width: 25%; margin-left: 1362px; margin-top: -388px; margin-bottom: 287px;" />
-                    <img src="images/introb1.png" />
+                    <img src="assets/media/images/Beerlogo.png" style="width: 25%; margin-left: 1362px; margin-top: -388px; margin-bottom: 287px;" />
+                    <img src="assets/media/images/introb1.png" />
                     <ul id="textslider">
                         <li>
                             <h2>VISION</h2>
@@ -203,20 +235,20 @@
                             <p>To create India’s most influential and fashionable bar brand which sets the benchmark for the rest of the industry.</p>
                         </li>
                     </ul>
-                    <img src="images/introg1.png" style="margin-left: 1302px; margin-top: -766px; width: 62%; height: 315px;" />
+                    <img src="assets/media/images/introg1.png" style="margin-left: 1302px; margin-top: -766px; width: 62%; height: 315px;" />
                 </div>
             </div>
 
             <div class="container-fluid">
                 <div class="row homebeverage">
                     <h1>BEVERAGES</h1>
-                    <img src="images/beverageimg1.png" class="beverageimg1" />
-                    <img src="images/bevglass1.png" class="bevglass1" />
+                    <img src="assets/media/images/beverageimg1.png" class="beverageimg1" />
+                    <img src="assets/media/images/bevglass1.png" class="bevglass1" />
                     <video class="video-fluid mob-video" id="vControls" autoplay loop muted>
-                        <source src="video/Beverages.mp4" type="video/mp4" />
+                        <source src="assets/media/videos/Beverages.mp4" type="video/mp4" />
                     </video>
-                    <img src="images/beverageimg2.png" class="beverageimg2" />
-                    <!-- <img src="images/ftvlargelogo.png" class="ftvlargelogo"> -->
+                    <img src="assets/media/images/beverageimg2.png" class="beverageimg2" />
+                    <!-- <img src="assets/media/images/ftvlargelogo.png" class="ftvlargelogo"> -->
                 </div>
             </div>
 
@@ -228,21 +260,21 @@
                         <h1 class="homeambiancehead3">Instagram</h1>
                         <h1 class="homeambiancehead4">worthy</h1>
                         <h1 class="homeambiancehead5">Ambiance</h1>
-                        <img src="images/elegantbg.png" class="elegantimg" />
-                        <img src="images/elegantimg1.png" class="elegantimg1" />
-                        <img src="images/ftvlargelogo.png" class="elegantimg2" />
-                        <img src="images/diamondlogo.png" class="elegantimg3" />
+                        <img src="assets/media/images/elegantbg.png" class="elegantimg" />
+                        <img src="assets/media/images/elegantimg1.png" class="elegantimg1" />
+                        <img src="assets/media/images/ftvlargelogo.png" class="elegantimg2" />
+                        <img src="assets/media/images/diamondlogo.png" class="elegantimg3" />
                     </div>
                 </div>
             </div>
 
             <div class="container-fluid">
                 <div class="row homegallery">
-                    <img src="images/diamondlogo.png" class="homegallerydiamondlogo" />
+                    <img src="assets/media/images/diamondlogo.png" class="homegallerydiamondlogo" />
                     <h1 class="homegalleryhead1">GALLERY</h1>
                     <h1 class="homegalleryhead2">BREWERY</h1>
                     <video class="video-fluid mob-video galleryvideo1" id="vControls" autoplay loop muted>
-                        <source src="video/Brewery-Gallery-1.mp4" type="video/mp4" />
+                        <source src="assets/media/videos/Brewery-Gallery-1.mp4" type="video/mp4" />
                     </video>
                     <video class="video-fluid mob-video galleryvideo2" id="vControls" autoplay loop muted>
                         <source src="video/Brewery-Gallery-2.mp4" type="video/mp4" />

@@ -3,12 +3,28 @@
 
 
 @font-face {
-    font-family: 'bodonibook';
-    src: url('bodoni_book-webfont.woff2') format('woff2'),
-         url('bodoni_book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: "Bebas Nueue";
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bodoni Book';
+    src: url('../fonts/Bodoni\ Book.otf');
+}
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('../fonts/Helvetica-Bold.ttf');
+}
+@font-face {
+    font-family: 'Helvetica Altra Light';
+    src: url('../fonts/Helvetica25UltraLight.ttf');
+}
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('../fonts/Poppins-Light.otf');
+}
+@font-face {
+    font-family: 'TCCM';
+    src: url('../fonts/TCCM____.TTF');
 }
 
 
