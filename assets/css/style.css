@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/513e00a92551c7f365c8d2d6cb475658?family=Helvetica+Neue);
 * {
   padding: 0;
   margin: 0;
@@ -24,8 +25,9 @@ body {
 }
 
 @font-face {
-  font-family: 'Helvetica Altra Light';
-  src: url("../fonts/Helvetica25UltraLight.ttf");
+  font-family: "Helvetica Neue";
+  src: url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.eot");
+  src: url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.woff") format("woff"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/513e00a92551c7f365c8d2d6cb475658.svg#Helvetica Neue") format("svg");
 }
 
 @font-face {
@@ -73,13 +75,135 @@ body {
   font-style: normal;
 }
 
-.desktop {
-  display: none;
-}
-
 .section {
   min-height: 100vh;
   background-color: black;
+}
+
+footer .foo-wrap {
+  min-height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+footer .foo-wrap .subs-wrap {
+  height: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foo-wrap .subs-wrap .newsletter {
+  height: 100%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+footer .foo-wrap .subs-wrap .newsletter .left-top {
+  height: inherit;
+  width: 50%;
+}
+
+footer .foo-wrap .subs-wrap .newsletter .left-top h1 {
+  font-family: "TCCM";
+  color: white;
+  font-size: 10vw;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+footer .foo-wrap .subs-wrap .newsletter .left-top h3 {
+  font-family: "Helvetica Neue";
+  color: white;
+  font-size: 5rem;
+  line-height: 1em;
+  letter-spacing: 0.5rem;
+}
+
+footer .foo-wrap .subs-wrap .newsletter .right-bottom {
+  height: inherit;
+  width: 50%;
+}
+
+footer .foo-wrap .socials-wrap {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foo-wrap .socials-wrap .social-links {
+  margin-top: 100px;
+  height: 100%;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+footer .foo-wrap .socials-wrap .social-links a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .foo-wrap .socials-wrap .social-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer .foo-wrap .socials-wrap .social-links aactive {
+  color: white;
+  text-decoration: none;
+}
+
+footer .foo-wrap .socials-wrap .social-links a .fab {
+  font-size: 40px;
+}
+
+footer .foo-wrap .copyrights {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .index .introduction {

@@ -1,140 +1,45 @@
 <footer>
-<div class="desktop">
-<div class="container-fluid">
-	<div class="row newsletter">
-		<h1 class="newsletterhead1">SUBSCRIBE</h1>
-		<h3 class="newsletterhead2">to our Newsletter</h3>
-		
-	</div>
-</div>
-
-<div class="container-fluid">
-	<div class="row newslettertext">
-		<form>
-			<input type="email" name="name" placeholder="Enter your email....." class="emailtext">
-			<i class="fas fa-arrow-right" style="font-size: 50px; margin-top: 10px;"></i>
-			
-		</form>
-		
-		
-	</div>
-	<div class="hr3">
-		<hr>
-	</div>
-</div>
-
-<div class="container-fluid">
-	<div class="row footerlist">
-		<ul>
-			<li><a href="">Careers |</a></li>
-      		<li><a href="">Privacy Policy |</a></li>
-      		<li><a href="">Terms & Conditions</a></li>
-			
-		</ul>
-	</div>
-	
-</div>
-
-<div class="container-fluid">
-	<div class="row sociallist">
-		<div class="hr1">
-			<hr />
+	<div class="foo-wrap">
+		<div class="subs-wrap">
+			<div class="newsletter">
+				<div class="left-top">
+					<h1 class="newsletterhead1">Subscribe</h1>
+					<h3 class="newsletterhead2">to our Newsletter</h3>
+				</div>
+				<div class="right-bottom">
+					<div class="newsletterform">
+						<form>
+							<input type="email" name="name" placeholder="Enter your email....." class="emailtext">
+							<i class="fas fa-arrow-right" style="font-size: 50px; margin-top: 10px;"></i>
+						</form>
+					</div>
+					<div class="links">
+						<p>
+							<a href="#">Careers</a>
+							<a href="#">Privacy Policy</a>
+							<a href="#">Terms & Conditions</a>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<ul>
-			<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-      		<li><a href=""><i class="fab fa-instagram"></i></a></li>
-      		<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-
-		</ul>
-		<div class="hr2">
-			<hr>
+		<div class="socials-wrap">
+			<div class="social-links">
+				<a href=""><i class="fab fa-facebook-f"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+			</div>
 		</div>
-		<img src="img/brewerylogo.png" alt="..." class="sociallistimg1">
-		<p>© copyright 2020 ftv franchise all rights reserved</p>
-		
-		<img src="images/ftvlargelogo.png" class="sociallistimg2">
-		<img src="images/beerf.png" class="sociallistimg3">
-
-		
+		<div class="copyrights">
+			<div class="copy-text">
+				<p>© copyright 2020 ftv franchise all rights reserved</p>
+			</div>
+			<div class="brands-img">
+				<img src="images/ftvlargelogo.png" class="sociallistimg2">
+				<img src="images/beerf.png" class="sociallistimg3">
+			</div>
+		</div>
 	</div>
-</div>
-</div>
-
-<div class="mobile">
-	<div class="container-fluid">
-	<div class="row newsletter">
-		<h1 class="newsletterhead1">SUBSCRIBE</h1>
-		<h3 class="newsletterhead2">to our Newsletter</h3>
-		
-	</div>
-</div>
-
-<div class="container-fluid">
-	<div class="row newslettertext">
-		<form>
-			<input type="email" name="name" placeholder="Enter your email....." class="emailtext">
-			<i class="fas fa-arrow-right" class="newslettertexticon"></i>
-			
-		</form>
-		
-		
-	</div>
-	<!-- <div class="hr3">
-		<hr>
-	</div> -->
-</div>
-
-<div class="container-fluid">
-	<div class="row footerlist">
-		<ul>
-			<li><a href="">Careers |</a></li>
-      		<li><a href="">Privacy Policy |</a></li>
-      		<li><a href="">Terms & Conditions</a></li>
-			
-		</ul>
-	</div>
-	
-</div>
-
-<div class="container-fluid">
-	<div class="row sociallist">
-		<!-- <div class="hr1">
-			<hr />
-		</div> -->
-		<ul>
-			<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-      		<li><a href=""><i class="fab fa-instagram"></i></a></li>
-      		<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-
-		</ul>
-		<!-- <div class="hr2">
-			<hr>
-		</div> -->
-		<img src="img/brewerylogo.png" alt="..." class="sociallistimg1">
-		<p>© copyright 2020 ftv franchise all rights reserved</p>
-		
-		<img src="images/ftvlargelogo.png" class="sociallistimg2">
-		<img src="images/beerf.png" class="sociallistimg3">
-
-		
-	</div>
-</div>
-	
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </footer>
 
 
@@ -169,12 +74,6 @@
 <!-- Custom JS -->
 <script src="assets/js/main.js"></script>
 <script>
-    //Animation JS Init
-    AOS.init();
-
+	//Animation JS Init
+	AOS.init();
 </script>
-
-
-</body>
-
-</html>
