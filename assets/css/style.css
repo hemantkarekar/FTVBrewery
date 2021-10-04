@@ -1113,6 +1113,102 @@ footer .foo-wrap .copyrights .brands-img img {
   }
 }
 
+.channels section {
+  width: 100%;
+  height: 70vh;
+}
+
+.channels section.channel {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.channels section.channel .channel-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.channels section.channel .channel-content .text-content {
+  width: 50%;
+  padding: 5% 30px;
+  color: white;
+}
+
+.channels section.channel .channel-content .text-content .title h1 {
+  text-transform: uppercase;
+  font-family: "TCCM";
+  font-size: 3rem;
+}
+
+.channels section.channel .channel-content .text-content .desc > p {
+  font-size: 20px;
+  font-family: "Bebas Nueue";
+  text-transform: uppercase;
+}
+
+.channels section.channel .channel-content .media-content {
+  width: 50%;
+  padding: 5% 30px;
+  overflow: hidden;
+}
+
+.channels section.channel.odd .channel-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.channels section.channel.even .channel-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .channels section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .channels section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .channels section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel .channel-content .text-content {
+    width: 100%;
+  }
+  .channels section.channel .channel-content .text-content .desc > p {
+    font-size: 16px;
+  }
+  .channels section.channel .channel-content .media-content {
+    width: 100%;
+  }
+}
+
 .m-readmore-click {
   display: none;
   color: white;

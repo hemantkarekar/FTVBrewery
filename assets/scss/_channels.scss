@@ -1,0 +1,96 @@
+.channels {
+    section {
+        width: 100%;
+        height: 70vh;
+
+        .intro {}
+
+        &.channel {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .channel-content {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                        }
+                    }
+                    .desc>p{
+                        font-size: 20px;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+                    .video-wrap {
+                        video {}
+                    }
+                }
+            }
+
+            &.odd {
+                .channel-content {
+                    flex-direction: row;
+                }
+            }
+
+            &.even {
+                .channel-content {
+                    flex-direction: row-reverse;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        section {
+            min-height: 100vh;
+            width: 100%;
+
+            .intro {}
+
+            &.channel {
+                display: flex;
+
+                &.odd {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+                }
+    
+                &.even {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+                }
+                .channel-content{
+                    .text-content{
+                        width: 100%;
+                        .desc>p{
+                            font-size: 16px;
+                        }
+                    }
+                    .media-content{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
