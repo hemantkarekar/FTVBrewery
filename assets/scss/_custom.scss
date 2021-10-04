@@ -1,7 +1,7 @@
 .m-readmore-click{
     display:none;
     color:white;
-    padding:5px 10px;
+    padding:5px 0;
     font-weight:bold;
     cursor:pointer;
 }
@@ -13,14 +13,16 @@
     cursor:pointer;
 }
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 1500px) {
     .m-readmore-click{
         display:block;
     }
     .m-readmore {
         display:none !important;
-        .show{
-            display:block !important;
-        }
     }   
+}
+
+.show{
+    display:block !important;
 }

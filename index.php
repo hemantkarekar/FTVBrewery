@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <?php include "includes/head.php";?>
+    <?php include "includes/_head.php"; ?>
     <title>Home | FTV Brewery</title>
 </head>
 <style type="text/css">
@@ -13,9 +13,7 @@
 </style>
 
 <body>
-    <header>
-        <nav></nav>
-    </header>
+    <?php include "includes/_header.php"; ?>
     <main class="index">
         <section class="section our-brewery">
 
@@ -29,13 +27,13 @@
                     <div class="content">
                         <h1>INTRODUCTION</h1>
                         <div class="brief">
-                            FTV Brewery is the premium bar by the world’s largest fashion media, FashionTV. With the passion to infuse luxury into hospitality, FashionTV established FTV Brewery across the globe.<span id="dots1">...</span>
+                            FTV Brewery is the premium bar by the world’s largest fashion media, FashionTV. With the passion to infuse luxury into hospitality, FashionTV established FTV Brewery across the globe.
                             <div class="m-readmore">
                                 FTV Brewery is a fashionable leisure place to unwind and sip branded drinks while enjoying the luxurious ambience. It is an elite bar, rich in glamour and a de-stressing environment. Studded with luxury, it crafts a
                                 lavish experience for the people of India.
                             </div>
+                            <span class="m-readmore-click">Read more</span>
                         </div>
-                        <span class="m-readmore-click">Read more</span>
                     </div>
                 </div>
                 <div class="video-content">
@@ -109,7 +107,6 @@
                                                 To facilitate FTV Brewery’s luxurious bar experience to every major city of India.
                                             </p>
                                         </div>
-                                        <span class="m-readmore-click">Read more</span>
                                     </div>
                                 </div>
                                 <div class="carousel-slide">
@@ -120,7 +117,6 @@
                                         <div class="brief">
                                             <p>To create India’s most influential and fashionable bar brand which sets the benchmark for the rest of the industry.</p>
                                         </div>
-                                        <span class="m-readmore-click">Read more</span>
                                     </div>
                                 </div>
                             </div>
@@ -175,18 +171,27 @@
                 <div class="title-content">
                     <div class="content">
                         <h1>Gallery</h1>
-                        <img src="assets/media/images/philosophy.png" alt="">
+                        <img src="assets/media/images/brewery.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="section-gallery-wrap">
                 <div class="main-gallery">
-                    <div class="slider"></div>
+                    <div class="single">
+                        <video autoplay muted loop>
+                            <source src="/assets/media/videos/Brewery-Gallery-1.mp4">
+                        </video>
+                    </div>
+                    <div class="single">
+                        <video autoplay muted loop>
+                            <source src="/assets/media/videos/Brewery-Gallery-2.mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <?php include "includes/footer.php";?>
+    <?php include "includes/_footer.php"; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
@@ -194,7 +199,7 @@
             var dots = document.getElementById("dots");
             var moreText = document.getElementById("more");
             var btnText = document.getElementById("myBtn");
-    
+
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
                 btnText.innerHTML = "Read more";
@@ -206,74 +211,25 @@
             }
         }
     </script>
-    
-    <script>
-        function myFunction1() {
-            var dots1 = document.getElementById("dots1");
-            var moreText = document.getElementById("more13");
-            var btnText = document.getElementById("myBtn1");
-    
-            if (dots1.style.display === "none") {
-                dots1.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots1.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-    
-        function myFunction27() {
-            var dots27 = document.getElementById("dots27");
-            var moreText = document.getElementById("more27");
-            var btnText = document.getElementById("myBtn27");
-    
-            if (dots27.style.display === "none") {
-                dots27.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots27.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-    
-        function myFunction28() {
-            var dots28 = document.getElementById("dots28");
-            var moreText = document.getElementById("more28");
-            var btnText = document.getElementById("myBtn28");
-    
-            if (dots28.style.display === "none") {
-                dots28.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots28.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-    </script>
-    
+
+
     <script type="text/javascript">
         const slideDelay = 3000;
-    
+
         const dynamicSlider = document.getElementById("textslider");
-    
+
         var curSlide = 0;
         window.setInterval(() => {
             curSlide++;
             if (curSlide === dynamicSlider.childElementCount) {
                 curSlide = 0;
             }
-    
+
             // Actual slide
             dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
         }, slideDelay);
     </script>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

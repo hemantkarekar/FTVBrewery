@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Poppins Light";
 }
 
 body {
@@ -14,102 +15,9 @@ body {
   background-color: black;
 }
 
-footer {
-  .foo-wrap {
-    min-height: 80vh;
-    width: 100%;
-    position: relative;
-    .subs-wrap {
-      height: 40vh;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .newsletter {
-        height: 100%;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-        .left-top {
-          height: inherit;
-          width: 50%;
-          h1 {
-            font-family: "TCCM";
-            color: white;
-            font-size: 10vw;
-            line-height: 1em;
-            text-transform: uppercase;
-            letter-spacing: 0.3rem;
-          }
-          h3 {
-            font-family: "Helvetica Neue";
-            color: white;
-            font-size: 5rem;
-            line-height: 1em;
-            letter-spacing: 0.5rem;
-          }
-        }
-        .right-bottom{
-            height: inherit;
-            width: 50%;
-            .newsletterform{
-                form{
-                    input{
-                        &[type="email"]{
-
-                        }
-                    }
-                }
-            }
-            .links{
-                p{
-                    
-                }
-            }
-        }
-      }
-    }
-    .socials-wrap {
-      height: 100px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .social-links {
-        margin-top: 100px;
-        height: 100%;
-        width: 25%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-        a {
-          color: white;
-          text-decoration: none;
-          &:hover {
-            color: white;
-            text-decoration: none;
-          }
-          &active {
-            color: white;
-            text-decoration: none;
-          }
-          .fab {
-            font-size: 40px;
-          }
-        }
-      }
-    }
-    .copyrights {
-      height: 100px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+.m-readmore {
+  font-family: inherit;
 }
+
+@import "_header";
+@import "_footer";

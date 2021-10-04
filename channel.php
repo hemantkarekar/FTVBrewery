@@ -1,6 +1,33 @@
-<?php
-include "includes/header.php";
-?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <?php include "includes/_head.php"; ?>
+    <title>Home | FTV Brewery</title>
+</head>
+<style type="text/css">
+    #more {
+        display: none;
+        margin-top: -58px;
+    }
+</style>
+
+<body>
+    <?php include "includes/_header.php"; ?>
+    <main class="channels">
+      <section></section>
+      <section></section>
+      <section class="channel">
+        <div class="channel-content">
+          <div class="text-content"></div>
+          <div class="media-content"></div>
+        </div>
+      </section>
+      <section class="channel"></section>
+      <section class="channel"></section>
+      <section class="channel"></section>
+      <section class="channel"></section>
+    </main>
 <div class="desktop">
   <div class="container-fluid">
   <div class="row chennalintro">
@@ -13,9 +40,9 @@ include "includes/header.php";
 
 <div class="container-fluid">
   <div class="row chennalintro1">
-    <img src="images/channel -1/image 2.png" class="chennalimg1">
-    <img src="images/channel -1/12 chammel logo.png" class="chennalimg2">
-    <img src="images/channel -1/f logo -2.png" class="chennalimg3">
+    <img src="assets/media/images/channel -1/image 2.png" class="chennalimg1">
+    <img src="assets/media/images/channel -1/12 chammel logo.png" class="chennalimg2">
+    <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
     <h1>INTRODUCTION</h1>
     <p>From the front row of exclusive fashion ramps to the trendy highlights of the entire fashion ecosystem, explore FTV’s 12 thematic channels</p>
   </div>

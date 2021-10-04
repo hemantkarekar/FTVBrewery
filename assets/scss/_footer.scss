@@ -1,0 +1,340 @@
+footer {
+    .foo-wrap {
+        min-height: 80vh;
+        width: 100%;
+        position: relative;
+
+        .subs-wrap {
+            height: 40vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .newsletter {
+                height: 100%;
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+
+                .left-top {
+                    height: inherit;
+                    width: 50%;
+
+                    h1 {
+                        font-family: "TCCM";
+                        color: white;
+                        font-size: 10vw;
+                        line-height: 1em;
+                        text-transform: uppercase;
+                        letter-spacing: 0.3rem;
+                    }
+
+                    h3 {
+                        font-family: "Helvetica Neue";
+                        color: white;
+                        font-size: 5rem;
+                        line-height: 1em;
+                        letter-spacing: 0.5rem;
+                    }
+                }
+
+                .right-bottom {
+                    height: inherit;
+                    width: 50%;
+
+                    .newsletterform {
+                        width: 100%;
+                        margin-top: 30px;
+
+                        form {
+                            font-family: "Bebas Nueue";
+                            width: 100%;
+                            border-bottom: 1px solid white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            background-color: #161616;
+
+                            input {
+                                &[type="email"] {
+                                    width: 100%;
+                                    padding: 20px;
+                                    font-size: 1.4rem;
+                                    background: none;
+                                    outline: none;
+                                    border: none;
+                                    color: white;
+
+                                }
+                            }
+
+                            button {
+                                background: none;
+                                outline: none;
+                                border: none;
+                                padding: 20px;
+
+                                i {
+                                    color: white;
+                                    font-size: 1.4rem;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .links {
+                        padding: 20px 0;
+                        width: 100%;
+                        display: flex;
+
+                        p {
+                            width: 90%;
+                            color: #D0891D;
+
+                            a {
+                                text-decoration: none;
+                                color: #D0891D;
+                                letter-spacing: 0.22ch;
+                                font-size: 20px;
+
+                                &:hover {
+                                    color: white;
+                                }
+
+                                &:not(:last-child):after {
+                                    content: '|';
+                                    padding: 0 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .socials-wrap {
+            height: 100px;
+            width: 100%;
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .social-links {
+                height: 100%;
+                width: 25%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                    &active {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                    .fab {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        .copyrights {
+            margin-top: 100px;
+            position: relative;
+            height: 100px;
+            width: 100%;
+
+            .copy-text {
+                position: absolute;
+                top: 0;
+                height: inherit;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+
+            .brands-img {
+                position: absolute;
+                top: 0;
+                height: 120px;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+
+                img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width:1600px) {
+        .foo-wrap {
+
+            .subs-wrap {
+
+                .newsletter {
+
+                    .left-top {
+
+                        h1 {}
+
+                        h3 {
+                            font-size: 3rem;
+                        }
+                    }
+
+                    .right-bottom {
+
+                        .newsletterform {
+
+                            form {
+                                input {
+                                    &[type="email"] {}
+                                }
+
+                                button {
+
+                                    i {}
+                                }
+
+                            }
+                        }
+
+                        .links {
+
+                            p {
+
+                                a {
+                                    font-size: 16px;
+
+                                    &:not(:last-child):after {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .socials-wrap {
+
+                .social-links {
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+
+                        .fab {}
+                    }
+                }
+            }
+
+            .copyrights {
+                .copy-text {}
+
+                .brands-img {
+                    img {}
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width:1200px) {
+        .foo-wrap {
+            margin-top: 100px;
+            .subs-wrap {
+                .newsletter {
+                    flex-direction: column;
+                    height: auto;
+                    .left-top {
+                        width: 100%;
+
+                        h1 {
+                            font-size: 15vw;
+                            text-align: center;
+                        }
+
+                        h3 {
+                            font-size: 5.5vw;
+                            text-align: center;
+                        }
+                    }
+
+                    .right-bottom {
+                        width: 100%;
+
+                        .newsletterform {
+
+                            form {
+                                input {
+                                    &[type="email"] {}
+                                }
+
+                                button {
+
+                                    i {}
+                                }
+
+                            }
+                        }
+
+                        .links {
+                            justify-content: center;
+
+                            p {
+                                width: fit-content;
+
+                                a {
+                                    &:not(:last-child):after {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .socials-wrap {
+
+                .social-links {
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+
+                        .fab {}
+                    }
+                }
+            }
+
+            .copyrights {
+                .copy-text {}
+
+                .brands-img {
+                    img {}
+                }
+            }
+        }
+    }
+}

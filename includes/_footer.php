@@ -10,7 +10,7 @@
 					<div class="newsletterform">
 						<form>
 							<input type="email" name="name" placeholder="Enter your email....." class="emailtext">
-							<i class="fas fa-arrow-right" style="font-size: 50px; margin-top: 10px;"></i>
+							<button><i class="fas fa-arrow-right"></i></button>
 						</form>
 					</div>
 					<div class="links">
@@ -35,8 +35,8 @@
 				<p>© copyright 2020 ftv franchise all rights reserved</p>
 			</div>
 			<div class="brands-img">
-				<img src="images/ftvlargelogo.png" class="sociallistimg2">
-				<img src="images/beerf.png" class="sociallistimg3">
+				<img src="/assets/media/images/ftvlargelogo.png" class="sociallistimg2">
+				<img src="/assets/media/images/beerf.png" class="sociallistimg3">
 			</div>
 		</div>
 	</div>
@@ -73,6 +73,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 <!-- Custom JS -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/readmore.js"></script>
 <script>
 	//Animation JS Init
 	AOS.init();
