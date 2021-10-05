@@ -373,6 +373,30 @@ footer .foo-wrap .copyrights .brands-img img {
     color: white;
     text-decoration: none;
   }
+  footer .foo-wrap .copyrights .brands-img {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .foo-wrap .socials-wrap .social-links {
+    width: 100%;
+  }
+  footer .foo-wrap .socials-wrap .social-links a {
+    color: white;
+    text-decoration: none;
+  }
+  footer .foo-wrap .copyrights .brands-img {
+    height: 70px;
+  }
+  footer .foo-wrap .copyrights .copy-text {
+    padding: 0 5px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+  }
 }
 
 .index .introduction {
@@ -1200,11 +1224,13 @@ footer .foo-wrap .copyrights .brands-img img {
   }
   .channels section.channel .channel-content .text-content {
     width: 100%;
+    padding: inherit 0;
   }
   .channels section.channel .channel-content .text-content .desc > p {
     font-size: 16px;
   }
   .channels section.channel .channel-content .media-content {
+    padding: inherit 0;
     width: 100%;
   }
 }

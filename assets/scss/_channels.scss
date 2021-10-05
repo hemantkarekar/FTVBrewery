@@ -82,11 +82,13 @@
                 .channel-content{
                     .text-content{
                         width: 100%;
+                        padding: inherit 0;
                         .desc>p{
                             font-size: 16px;
                         }
                     }
                     .media-content{
+                        padding: inherit 0;
                         width: 100%;
                     }
                 }

@@ -264,10 +264,12 @@ footer {
     @media screen and(max-width:1200px) {
         .foo-wrap {
             margin-top: 100px;
+
             .subs-wrap {
                 .newsletter {
                     flex-direction: column;
                     height: auto;
+
                     .left-top {
                         width: 100%;
 
@@ -332,7 +334,40 @@ footer {
                 .copy-text {}
 
                 .brands-img {
+                    justify-content: space-between;
+
                     img {}
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+
+        .foo-wrap {
+            .socials-wrap {
+
+                .social-links {
+                    width: 100%;
+                    a {
+                        color: white;
+                        text-decoration: none;
+
+                        .fab {}
+                    }
+                }
+            }
+
+            .copyrights {
+
+                .brands-img {
+                    height: 70px;
+                }
+                .copy-text {
+                    padding: 0 5px;
+                    text-align: center;
+                    position: relative;
+                    top: 70px;
                 }
             }
         }

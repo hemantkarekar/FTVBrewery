@@ -35,8 +35,8 @@
 				<p>© copyright 2020 ftv franchise all rights reserved</p>
 			</div>
 			<div class="brands-img">
-				<img src="/assets/media/images/ftvlargelogo.png" class="sociallistimg2">
-				<img src="/assets/media/images/beerf.png" class="sociallistimg3">
+				<img src="/assets/media/images/foo-left-logo.png" class="sociallistimg2">
+				<img src="/assets/media/images/foo-right-logo.png" class="sociallistimg3">
 			</div>
 		</div>
 	</div>
