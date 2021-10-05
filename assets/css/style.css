@@ -861,6 +861,10 @@ footer .foo-wrap .copyrights .brands-img img {
   width: 80%;
 }
 
+.index .mission .abstract .philo-text.sm {
+  display: none;
+}
+
 .index .mission .abstract .f-logo {
   position: relative;
   top: -96vh;
@@ -975,12 +979,30 @@ footer .foo-wrap .copyrights .brands-img img {
   }
 }
 
-.index .mission .mission-content-wrap .mission-content .text-content .carousel-wrapper {
-  height: 50vh;
-  width: 70vw;
+.index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper {
+  width: 500px;
+  min-height: 100%;
 }
 
-.index .mission .mission-content-wrap .mission-content .text-content .carousel-wrapper .carousel-slide .slider-content {
+.index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  min-height: 200px;
+  padding: 20px 10px;
+}
+
+.index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper-slide .slider-content {
   height: 100%;
   margin: auto 0;
   padding: 20px;
@@ -988,11 +1010,12 @@ footer .foo-wrap .copyrights .brands-img img {
   text-transform: uppercase;
 }
 
-.index .mission .mission-content-wrap .mission-content .text-content .carousel-wrapper .carousel-slide .slider-content .header h1 {
+.index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper-slide .slider-content .header h1 {
   font-size: 6.5rem;
+  font-family: "TCCM";
 }
 
-.index .mission .mission-content-wrap .mission-content .text-content .carousel-wrapper .carousel-slide .slider-content .brief {
+.index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper-slide .slider-content .brief {
   margin-top: 40px;
 }
 
@@ -1473,6 +1496,317 @@ footer .foo-wrap .copyrights .brands-img img {
   }
   .index .beverages .elegant-heading h1 {
     font-size: 11vw;
+  }
+  .index .gallery .section-title .title-content .content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .index .gallery .section-title .title-content .content h1 {
+    font-size: 9vw;
+  }
+  .index .gallery .section-title .title-content .content img {
+    width: 40vw;
+    height: auto;
+  }
+  .index .gallery .section-gallery-wrap {
+    height: auto;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery .single {
+    height: 60vh;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery .single video {
+    position: relative;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .index .intro > .text-content {
+    top: 15% !important;
+  }
+  .index .intro > .text-content .image img {
+    left: 0 !important;
+  }
+  .index .intro > .text-content .content h1 {
+    font-size: 4rem !important;
+  }
+  .index .intro > .text-content .content .brief {
+    height: 30vh;
+    overflow-y: scroll;
+  }
+  .index .intro > .video-content {
+    height: 50vh !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 40px;
+  }
+  .index .stamp {
+    height: 90px;
+    right: 6%;
+    bottom: -6%;
+  }
+  .index .potential .potential-content > .text-content {
+    width: 90%;
+  }
+  .index .potential .potential-content > .text-content .content .brief {
+    height: 30vh;
+    overflow-y: scroll;
+  }
+  .index .potential .potential-content > .video-content {
+    width: 100%;
+  }
+  .index .mission {
+    max-height: 100vh !important;
+    overflow: unset;
+  }
+  .index .mission .abstract {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    z-index: 2;
+  }
+  .index .mission .abstract .glass-splash {
+    height: 50% !important;
+  }
+  .index .mission .abstract .philo-text {
+    top: -13vh !important;
+    left: 13% !important;
+    width: 100% !important;
+  }
+  .index .mission .abstract .philo-text img {
+    display: none;
+  }
+  .index .mission .abstract .philo-text.sm {
+    display: block;
+  }
+  .index .mission .abstract .philo-text.sm .outlined {
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+  .index .mission .abstract .f-logo {
+    top: -17vh !important;
+    left: 5%;
+    height: 95px !important;
+  }
+  .index .mission .mission-content-wrap .mission-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index .mission .mission-content-wrap .mission-content .image-content img {
+    width: 80%;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel {
+    position: relative;
+    top: -27vh;
+    left: 22%;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper {
+    width: 345px !important;
+    position: relative;
+    left: 0;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper .swiper-wrapper .swiper-slide .slider-content .header h1 {
+    font-size: 4rem;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper .swiper-wrapper .swiper-slide .slider-content .brief {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .index .beverages {
+    min-height: 100vh !important;
+  }
+  .index .beverages .image-video-abstracts {
+    right: 0;
+    width: 100%;
+    top: 17vh;
+    left: 5%;
+  }
+  .index .beverages .image-video-abstracts .sect {
+    width: 32%;
+  }
+  .index .beverages .image-video-abstracts .sect.video::before {
+    display: none;
+  }
+  .index .beverages .down-video {
+    bottom: -25vh;
+    left: 34%;
+    width: 50% !important;
+  }
+  .index .beverages .section-title {
+    top: 0;
+  }
+  .index .beverages .section-title h1 {
+    font-size: 5rem;
+  }
+  .index .beverages .beer-glass {
+    display: none;
+  }
+  .index .beverages .elegant-heading {
+    top: 78vh !important;
+    width: 50%;
+  }
+  .index .beverages .elegant-heading h1 {
+    font-size: 11vw;
+  }
+  .index .gallery .f-brand-logo {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    height: 100px;
+    width: auto;
+  }
+  .index .gallery .section-title .title-content .content {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .index .gallery .section-title .title-content .content h1 {
+    font-size: 9vw;
+  }
+  .index .gallery .section-title .title-content .content img {
+    width: 40vw;
+    height: auto;
+  }
+  .index .gallery .section-gallery-wrap {
+    height: auto;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery .single {
+    height: 60vh;
+  }
+  .index .gallery .section-gallery-wrap .main-gallery .single video {
+    position: relative;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .index .intro > .text-content .image img {
+    left: 0 !important;
+  }
+  .index .intro > .text-content .content h1 {
+    font-size: 4rem !important;
+  }
+  .index .intro > .text-content .content .brief {
+    height: 30vh;
+    overflow-y: scroll;
+  }
+  .index .stamp {
+    height: 90px;
+    right: 6%;
+    bottom: -6%;
+  }
+  .index .potential .potential-content > .text-content {
+    width: 90%;
+  }
+  .index .potential .potential-content > .text-content .content .brief {
+    height: 30vh;
+    overflow-y: scroll;
+  }
+  .index .potential .potential-content > .video-content {
+    width: 100%;
+  }
+  .index .mission {
+    height: 140vh !important;
+    overflow: unset;
+  }
+  .index .mission .abstract {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+  }
+  .index .mission .abstract .f-logo {
+    top: -80vh;
+    left: 5%;
+    height: 95px !important;
+  }
+  .index .mission .mission-content-wrap .mission-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index .mission .mission-content-wrap .mission-content .image-content img {
+    height: 100%;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper {
+    width: 345px !important;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper .swiper-wrapper {
+    position: relative;
+    left: -22%;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper .swiper-wrapper .swiper-slide .slider-content .header h1 {
+    font-size: 4rem;
+  }
+  .index .mission .mission-content-wrap .mission-content .text-content .mission-carousel .swiper .swiper-wrapper .swiper-slide .slider-content .brief {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .index .beverages .image-video-abstracts {
+    right: 0;
+    width: 100%;
+    top: 17vh;
+    left: 5%;
+  }
+  .index .beverages .image-video-abstracts .sect {
+    width: 32%;
+  }
+  .index .beverages .image-video-abstracts .sect.video::before {
+    display: none;
+  }
+  .index .beverages .down-video {
+    bottom: -25vh;
+    left: 34%;
+    width: 50% !important;
+  }
+  .index .beverages .section-title {
+    top: 0;
+  }
+  .index .beverages .section-title h1 {
+    font-size: 5rem;
+  }
+  .index .beverages .elegant-heading {
+    top: 115vh;
+    width: 50%;
+  }
+  .index .beverages .elegant-heading h1 {
+    font-size: 11vw;
+  }
+  .index .gallery .f-brand-logo {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    height: 100px;
+    width: auto;
   }
   .index .gallery .section-title .title-content .content {
     -ms-flex-pack: distribute;

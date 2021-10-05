@@ -72,6 +72,7 @@
             <div class="abstract">
                 <div class="glass-splash"><img src="assets/media/images/glass-splash.png" alt=""></div>
                 <div class="philo-text"><img src="assets/media/images/philosophy.png" alt=""></div>
+                <div class="philo-text sm"><p class="outlined">Philosophy</p></div>
                 <div class="f-logo"><img src="assets/media/images/ftvsmalllogo.png" alt=""></div>
             </div>
             <div class="mission-content-wrap">
@@ -81,41 +82,57 @@
                     </div>
                     <div class="text-content">
                         <div class="mission-carousel">
-                            <div class="carousel-wrapper">
-                                <!-- Slides -->
-                                <div class="carousel-slide">
-                                    <div class="slider-content">
-                                        <div class="header">
-                                            <h1>VISION</h1>
-                                        </div>
-                                        <div class="brief">
-                                            To bring India at par with international bar standards & transforming the country into a leading evening entertainment destination.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-slide">
-                                    <div class="slider-content">
-                                        <div class="header">
-                                            <h1>Mission</h1>
-                                        </div>
-                                        <div class="brief">
-                                            <p>
-                                                To facilitate FTV Brewery’s luxurious bar experience to every major city of India.
-                                            </p>
+                            <div class="swiper missions">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slider-content">
+                                            <div class="header">
+                                                <h1>VISION</h1>
+                                            </div>
+                                            <div class="brief">
+                                                To bring India at par with international bar standards & transforming the country into a leading evening entertainment destination.
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="carousel-slide">
-                                    <div class="slider-content">
-                                        <div class="header">
-                                            <h1>Aim</h1>
+                                    <div class="swiper-slide">
+                                        <div class="slider-content">
+                                            <div class="header">
+                                                <h1>Mission</h1>
+                                            </div>
+                                            <div class="brief">
+                                                <p>
+                                                    To facilitate FTV Brewery’s luxurious bar experience to every major city of India.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="brief">
-                                            <p>To create India’s most influential and fashionable bar brand which sets the benchmark for the rest of the industry.</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-content">
+                                            <div class="header">
+                                                <h1>Aim</h1>
+                                            </div>
+                                            <div class="brief">
+                                                <p>To create India’s most influential and fashionable bar brand which sets the benchmark for the rest of the industry.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Swiper JS -->
+                            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                            <!-- Initialize Swiper -->
+                            <script>
+                                var swiper = new Swiper(".missions", {
+                                    spaceBetween: 30,
+                                    centeredSlides: true,
+                                    autoplay: {
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    },
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -192,7 +209,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    
+
     <script type="text/javascript">
     </script>
 

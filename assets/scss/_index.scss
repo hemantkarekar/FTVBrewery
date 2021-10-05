@@ -222,6 +222,10 @@
                     height: auto;
                     width: 80%;
                 }
+
+                &.sm {
+                    display: none;
+                }
             }
 
             .f-logo {
@@ -265,11 +269,23 @@
                     padding: 0 10%;
                     @import "_slider";
 
-                    .carousel-wrapper {
-                        height: 50vh;
-                        width: 70vw;
+                    .mission-carousel {
+                        .swiper {
+                            width: 500px;
+                            min-height: 100%;
+                        }
 
-                        .carousel-slide {
+                        .swiper-slide {
+                            text-align: center;
+                            font-size: 18px;
+                            background: transparent;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 200px;
+                            min-height: 200px;
+                            padding: 20px 10px;
+
                             .slider-content {
                                 height: 100%;
                                 margin: auto 0;
@@ -280,6 +296,7 @@
                                 .header {
                                     h1 {
                                         font-size: 6.5rem;
+                                        font-family: "TCCM";
                                     }
                                 }
 
@@ -715,6 +732,7 @@
         .intro {
             &>.text-content {
                 width: 80% !important;
+
                 .image {
 
                     img {}
@@ -979,6 +997,7 @@
                     top: -87vh;
                     left: 10%;
                     height: 140px !important;
+
                     img {}
                 }
             }
@@ -1116,6 +1135,7 @@
         }
     }
 }
+
 @media screen and (max-width:630px) {
     .index {
         .intro {
@@ -1179,7 +1199,6 @@
             overflow: unset;
 
             .abstract {
-
                 .glass-splash {
 
                     img {}
@@ -1286,6 +1305,555 @@
 
         .gallery {
             .f-brand-logo {
+                img {}
+            }
+
+            .section-title {
+                .title-content {
+                    .content {
+                        justify-content: space-around;
+
+                        h1 {
+                            font-size: 9vw;
+                        }
+
+                        img {
+                            width: 40vw;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .section-gallery-wrap {
+                height: auto;
+
+                .main-gallery {
+                    flex-direction: column;
+
+                    .single {
+                        height: 60vh;
+
+                        video {
+                            position: relative;
+                            left: 50%;
+                            width: auto;
+                            height: 100%;
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    .index {
+        .intro {
+            &>.text-content {
+                top: 15% !important;
+
+                .image {
+                    img {
+                        left: 0 !important;
+                    }
+                }
+
+                .content {
+                    h1 {
+                        font-size: 4rem !important;
+                    }
+
+                    .brief {
+                        height: 30vh;
+                        overflow-y: scroll;
+                    }
+                }
+            }
+
+            &>.video-content {
+                height: 50vh !important;
+                width: 100% !important;
+                top: 0 !important;
+                left: 40px;
+
+                video {}
+            }
+        }
+
+        .stamp {
+            height: 90px;
+            right: 6%;
+            bottom: -6%;
+
+            img {}
+        }
+
+        .potential {
+
+            .potential-content {
+                &>.text-content {
+                    width: 90%;
+
+                    .content {
+                        .wrap-right {
+                            h1 {}
+                        }
+
+                        .brief {
+                            height: 30vh;
+                            overflow-y: scroll;
+                        }
+                    }
+                }
+
+                &>.video-content {
+                    width: 100%;
+
+                    video {}
+                }
+            }
+        }
+
+        .mission {
+            max-height: 100vh !important;
+            overflow: unset;
+
+            .abstract {
+                position: absolute;
+                top: 10vh;
+                left: 0;
+                width: 100%;
+                height: 80vh;
+                z-index: 2;
+
+                .glass-splash {
+                    height: 50% !important;
+
+                    img {}
+                }
+
+                .philo-text {
+                    // top: 27px !important;
+                    // left: 38% !important;
+                    // width: 71% !important;
+
+                    top: -13vh !important;
+                    left: 13% !important;
+                    width: 100% !important;
+
+                    img {
+                        display: none;
+                    }
+
+                    &.sm {
+                        display: block;
+
+                        .outlined {
+                            font-family: "TCCM";
+                            text-transform: uppercase;
+                            font-size: 4.5rem;
+                            color: transparent;
+                            -webkit-text-stroke: 1px white;
+                        }
+                    }
+                }
+
+                .f-logo {
+                    top: -17vh !important;
+                    left: 5%;
+                    height: 95px !important;
+
+                    img {}
+                }
+            }
+
+            .mission-content-wrap {
+
+                .mission-content {
+                    flex-direction: column;
+
+                    .image-content {
+
+                        img {
+                            width: 80%;
+                        }
+                    }
+
+                    .text-content {
+                        .mission-carousel {
+                            position: relative;
+                            top: -27vh;
+                            left: 22%;
+
+                            .swiper {
+                                width: 345px !important;
+                                position: relative;
+                                left: 0;
+
+                                .swiper-wrapper {
+                                    .swiper-slide {
+
+                                        .slider-content {
+
+                                            .header {
+                                                h1 {
+                                                    font-size: 4rem;
+                                                }
+                                            }
+
+                                            .brief {
+                                                margin-top: 10px;
+                                                font-size: 13px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .beverages {
+            min-height: 100vh !important;
+
+            .f-logo {
+
+                img {}
+
+                &.down {}
+            }
+
+            .image-video-abstracts {
+                right: 0;
+                width: 100%;
+                top: 17vh;
+                left: 5%;
+
+                .sect {
+                    width: 32%;
+
+                    &.img1 {
+                        img {}
+                    }
+
+                    &.video {
+                        video {}
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    &.img2 {
+                        img {}
+                    }
+                }
+            }
+
+            .down-video {
+                bottom: -25vh;
+                left: 34%;
+                width: 50% !important;
+
+                video {}
+            }
+
+            .section-title {
+                top: 0;
+
+                h1 {
+                    font-size: 5rem;
+                }
+            }
+
+            .beer-glass {
+                display: none;
+
+                img {}
+            }
+
+            .elegant-heading {
+                top: 78vh !important;
+                width: 50%;
+
+                h1 {
+                    font-size: 11vw;
+                }
+            }
+
+        }
+
+        .gallery {
+            .f-brand-logo {
+                position: absolute;
+                top: 4%;
+                left: 0;
+                height: 100px;
+                width: auto;
+
+                img {}
+            }
+
+            .section-title {
+                .title-content {
+                    .content {
+                        justify-content: space-around;
+
+                        h1 {
+                            font-size: 9vw;
+                        }
+
+                        img {
+                            width: 40vw;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .section-gallery-wrap {
+                height: auto;
+
+                .main-gallery {
+                    flex-direction: column;
+
+                    .single {
+                        height: 60vh;
+
+                        video {
+                            position: relative;
+                            left: 50%;
+                            width: auto;
+                            height: 100%;
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:300px) {
+    .index {
+        .intro {
+            &>.text-content {
+                .image {
+                    img {
+                        left: 0 !important;
+                    }
+                }
+
+                .content {
+                    h1 {
+                        font-size: 4rem !important;
+                    }
+
+                    .brief {
+                        height: 30vh;
+                        overflow-y: scroll;
+                    }
+                }
+            }
+
+            &>.video-content {
+
+                video {}
+            }
+        }
+
+        .stamp {
+            height: 90px;
+            right: 6%;
+            bottom: -6%;
+
+            img {}
+        }
+
+        .potential {
+
+            .potential-content {
+                &>.text-content {
+                    width: 90%;
+
+                    .content {
+                        .wrap-right {
+                            h1 {}
+                        }
+
+                        .brief {
+                            height: 30vh;
+                            overflow-y: scroll;
+                        }
+                    }
+                }
+
+                &>.video-content {
+                    width: 100%;
+
+                    video {}
+                }
+            }
+        }
+
+        .mission {
+            height: 140vh !important;
+            overflow: unset;
+
+            .abstract {
+                position: absolute;
+                top: 10vh;
+                left: 0;
+                width: 100%;
+                height: 80vh;
+                z-index: 1;
+
+                .glass-splash {
+
+                    img {}
+                }
+
+                .philo-text {
+
+                    img {}
+                }
+
+                .f-logo {
+                    top: -80vh;
+                    left: 5%;
+                    height: 95px !important;
+
+                    img {}
+                }
+            }
+
+            .mission-content-wrap {
+
+                .mission-content {
+                    flex-direction: column;
+
+                    .image-content {
+
+                        img {
+                            height: 100%;
+                        }
+                    }
+
+                    .text-content {
+                        .mission-carousel {
+                            .swiper {
+                                width: 345px !important;
+
+                                .swiper-wrapper {
+                                    position: relative;
+                                    left: -22%;
+
+                                    .swiper-slide {
+
+                                        .slider-content {
+
+                                            .header {
+                                                h1 {
+                                                    font-size: 4rem;
+                                                }
+                                            }
+
+                                            .brief {
+                                                margin-top: 10px;
+                                                font-size: 13px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .beverages {
+            .f-logo {
+
+                img {}
+
+                &.down {}
+            }
+
+            .image-video-abstracts {
+                right: 0;
+                width: 100%;
+                top: 17vh;
+                left: 5%;
+
+                .sect {
+                    width: 32%;
+
+                    &.img1 {
+                        img {}
+                    }
+
+                    &.video {
+                        video {}
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    &.img2 {
+                        img {}
+                    }
+                }
+            }
+
+            .down-video {
+                bottom: -25vh;
+                left: 34%;
+                width: 50% !important;
+
+                video {}
+            }
+
+            .section-title {
+                top: 0;
+
+                h1 {
+                    font-size: 5rem;
+                }
+            }
+
+            .beer-glass {
+                img {}
+            }
+
+            .elegant-heading {
+                top: 115vh;
+                width: 50%;
+
+                h1 {
+                    font-size: 11vw;
+                }
+            }
+
+        }
+
+        .gallery {
+            .f-brand-logo {
+                position: absolute;
+                top: 4%;
+                left: 0;
+                height: 100px;
+                width: auto;
+
                 img {}
             }
 
