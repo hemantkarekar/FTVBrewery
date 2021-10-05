@@ -13,7 +13,7 @@
 </style>
 
 <body>
-  <!-- <?php include "includes/_header.php"; ?> -->
+<?php include "includes/_header.php"; ?>
   <main class="channels">
     <section></section>
     <section class="intro"></section>

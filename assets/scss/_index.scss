@@ -1,4 +1,36 @@
 .index {
+    .our-brewery {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+
+        .content {
+            width: 100%;
+            height: 60vh;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            h1 {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                width: 100%;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                text-transform: uppercase;
+                font-family: "NCS Radhiumz";
+                font-size: 14vw;
+                background: url("/assets//media/images/beer-10.gif");
+                background-size: cover;
+                background-position: 50% 18%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                line-height: 0.8em;
+            }
+        }
+    }
+
     .introduction {
         position: relative;
         height: 100vh;
@@ -358,7 +390,6 @@
             left: 31.8%;
             width: 33%;
             height: 50vh;
-            background-color: yellow;
             overflow: hidden;
 
             video {
@@ -367,6 +398,15 @@
                 left: 50%;
                 height: 100%;
                 width: auto;
+                transform: translateX(-50%);
+            }
+
+            img {
+                position: relative;
+                top: 0;
+                left: 50%;
+                height: auto;
+                width: 100%;
                 transform: translateX(-50%);
             }
         }
@@ -486,7 +526,6 @@
             .main-gallery {
                 width: 80%;
                 height: inherit;
-                background-color: #383838;
                 display: flex;
 
                 .single {
@@ -675,7 +714,7 @@
     .index {
         .intro {
             &>.text-content {
-
+                width: 80% !important;
                 .image {
 
                     img {}
@@ -740,6 +779,7 @@
 
             .mission-content-wrap {
                 left: -13%;
+
                 .mission-content {
                     .image-content {
                         img {}
@@ -867,8 +907,6 @@
     .index {
         .intro {
             &>.text-content {
-                width: 80% !important;
-
                 .image {
                     img {
                         left: 0 !important;
@@ -878,7 +916,10 @@
                 .content {
                     h1 {}
 
-                    .brief {}
+                    .brief {
+                        height: 30vh;
+                        overflow-y: scroll;
+                    }
                 }
             }
 
@@ -904,7 +945,225 @@
                             h1 {}
                         }
 
-                        .brief {}
+                        .brief {
+                            height: 30vh;
+                            overflow-y: scroll;
+                        }
+                    }
+                }
+
+                &>.video-content {
+
+                    video {}
+                }
+            }
+        }
+
+        .mission {
+            height: 140vh !important;
+            overflow: unset;
+
+            .abstract {
+
+                .glass-splash {
+
+                    img {}
+                }
+
+                .philo-text {
+
+                    img {}
+                }
+
+                .f-logo {
+                    top: -87vh;
+                    left: 10%;
+                    height: 140px !important;
+                    img {}
+                }
+            }
+
+            .mission-content-wrap {
+                .mission-content {
+                    flex-direction: column;
+
+                    .image-content {
+                        img {}
+                    }
+
+                    .text-content {
+
+                        .carousel-wrapper {
+                            .carousel-slide {
+                                .slider-content {
+                                    .header {
+                                        h1 {}
+                                    }
+
+                                    .brief {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .beverages {
+            .f-logo {
+
+                img {}
+
+                &.down {}
+            }
+
+            .image-video-abstracts {
+                right: 0;
+                width: 100%;
+                top: 17vh;
+                left: 5%;
+
+                .sect {
+                    width: 32%;
+
+                    &.img1 {
+                        img {}
+                    }
+
+                    &.video {
+                        video {}
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    &.img2 {
+                        img {}
+                    }
+                }
+            }
+
+            .down-video {
+                bottom: -17vh;
+                left: 46.8%;
+
+                video {}
+            }
+
+            .section-title {
+                top: 0;
+
+                h1 {}
+            }
+
+            .beer-glass {
+                img {}
+            }
+
+            .elegant-heading {
+                top: 115vh;
+                width: 50%;
+
+                h1 {
+                    font-size: 11vw;
+                }
+            }
+
+        }
+
+        .gallery {
+            .f-brand-logo {
+                img {}
+            }
+
+            .section-title {
+                .title-content {
+                    .content {
+                        justify-content: space-around;
+
+                        h1 {
+                            font-size: 9vw;
+                        }
+
+                        img {
+                            width: 40vw;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .section-gallery-wrap {
+                height: auto;
+
+                .main-gallery {
+                    flex-direction: column;
+
+                    .single {
+                        height: 60vh;
+
+                        video {
+                            position: relative;
+                            left: 50%;
+                            width: auto;
+                            height: 100%;
+                            transform: translateX(-50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:630px) {
+    .index {
+        .intro {
+            &>.text-content {
+                .image {
+                    img {
+                        left: 0 !important;
+                    }
+                }
+
+                .content {
+                    h1 {
+                        font-size: 4rem;
+                    }
+
+                    .brief {
+                        height: 30vh;
+                        overflow-y: scroll;
+                    }
+                }
+            }
+
+            &>.video-content {
+
+                video {}
+            }
+        }
+
+        .stamp {
+
+            img {}
+        }
+
+        .potential {
+
+            .potential-content {
+                &>.text-content {
+                    width: 60%;
+
+                    .content {
+                        .wrap-right {
+                            h1 {}
+                        }
+
+                        .brief {
+                            height: 30vh;
+                            overflow-y: scroll;
+                        }
                     }
                 }
 
@@ -1000,6 +1259,7 @@
             .down-video {
                 bottom: -17vh;
                 left: 46.8%;
+
                 video {}
             }
 
@@ -1016,7 +1276,10 @@
             .elegant-heading {
                 top: 115vh;
                 width: 50%;
-                h1 {font-size: 11vw;}
+
+                h1 {
+                    font-size: 11vw;
+                }
             }
 
         }

@@ -1,7 +1,201 @@
-header{
+.nav-layout {
     width: 100%;
     height: 100px;
-    background-color: #6e6e6e;
+    background-color: black;
+    position: fixed;
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .logo {
+        max-width: 10%;
+        padding: 0 1%;
+        height: inherit;
+
+        img {
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .spacer {
+        width: 30%;
+        height: inherit;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        &.enquire-now{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            a{
+                float: right;
+                padding-right: 100px;
+                text-transform: uppercase;
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .center-logo {
+        max-width: 20%;
+        padding: 0 1%;
+        height: inherit;
+
+        img {
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
     position: fixed;
     z-index: 9999;
+
+    a {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: tomato;
+        }
+    }
+
+    nav {
+        .nav-layout {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: lawngreen;
+        }
+
+        #menuToggle {
+            display: block;
+            position: absolute;
+            top: 40px;
+            right: 50px;
+            z-index: 1;
+            -webkit-user-select: none;
+            user-select: none;
+
+            input {
+                display: block;
+                width: 40px;
+                height: 32px;
+                position: absolute;
+                top: -7px;
+                left: -5px;
+                cursor: pointer;
+                opacity: 0;
+
+                /* hide this */
+                z-index: 2;
+
+                /* and place it over the hamburger */
+
+                -webkit-touch-callout: none;
+            }
+
+            span {
+                display: block;
+                width: 33px;
+                height: 4px;
+                margin-bottom: 5px;
+                position: relative;
+                background: #cdcdcd;
+                border-radius: 3px;
+                z-index: 1;
+                transform-origin: 4px 0px;
+                transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+
+                &:first-child {
+                    transform-origin: 0% 0%;
+                }
+
+                &:nth-last-child(2) {
+                    transform-origin: 0% 100%;
+                }
+            }
+
+            input:checked~span {
+                opacity: 1;
+                transform: rotate(45deg) translate(-2px, -1px);
+                background: #232323;
+
+                &:nth-last-child(3) {
+                    opacity: 0;
+                    transform: rotate(0deg) scale(0.2, 0.2);
+                }
+
+                &:nth-last-child(2) {
+                    opacity: 1;
+                    transform: rotate(-45deg) translate(0, -1px);
+                }
+            }
+        }
+
+        #menu {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            margin: -68px 50px 0 0;
+            padding: 50px;
+            padding-top: 125px;
+            right: -100px;
+            background: #ededed;
+            list-style-type: none;
+            -webkit-font-smoothing: antialiased;
+
+            /* to stop flickering of text in safari */
+
+            transform-origin: 0% 0%;
+            transform: translate(100%, 0);
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+            li {
+                padding: 10px 0;
+                font-size: 22px;
+            }
+        }
+
+        #menuToggle input:checked~ul {
+            transform: none;
+            opacity: 1;
+            display: block;
+        }
+
+        @media screen and (max-width: 768px) {
+            #menu {
+                transform: none;
+                opacity: 0;
+                display: none;
+                transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-layout{
+        justify-content: space-between;
+        .spacer, .center-logo{
+            display: none;
+        }
+        .enquire-now{
+            border: none;
+            width: 80% !important;
+        }
+    }
 }

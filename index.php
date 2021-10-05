@@ -16,7 +16,9 @@
     <?php include "includes/_header.php"; ?>
     <main class="index">
         <section class="section our-brewery">
-
+            <div class="content full-cover">
+                <h1>Brewery</h1>
+            </div>
         </section>
         <section class="section introduction">
             <div class="intro">
@@ -28,11 +30,8 @@
                         <h1>INTRODUCTION</h1>
                         <div class="brief">
                             FTV Brewery is the premium bar by the world’s largest fashion media, FashionTV. With the passion to infuse luxury into hospitality, FashionTV established FTV Brewery across the globe.
-                            <div class="m-readmore">
-                                FTV Brewery is a fashionable leisure place to unwind and sip branded drinks while enjoying the luxurious ambience. It is an elite bar, rich in glamour and a de-stressing environment. Studded with luxury, it crafts a
-                                lavish experience for the people of India.
-                            </div>
-                            <span class="m-readmore-click">Read more</span>
+                            FTV Brewery is a fashionable leisure place to unwind and sip branded drinks while enjoying the luxurious ambience. It is an elite bar, rich in glamour and a de-stressing environment. Studded with luxury, it crafts a
+                            lavish experience for the people of India.
                         </div>
                     </div>
                 </div>
@@ -50,7 +49,7 @@
             <div class="potential-content">
                 <div class="video-content">
                     <video class="video-fluid mob-video" id="vControls" autoplay loop muted>
-                        <source src="assets/media/videos/Intro Brewery.mp4" type="video/mp4" />
+                        <source src="assets/media/videos/Home Page/Potential.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div class="text-content">
@@ -60,11 +59,8 @@
                         </div>
                         <div class="brief">
                             Indians are shifting to an ultra-modern lifestyle and this lifestyle has accelerated the growth of premium breweries in recent times.
-                            <div class="m-readmore">
-                                There is a huge scope for profits for the brewery in a booming market like India as there continues to be a dire need of premium, luxurious breweries for this niche section of the society.
-                            </div>
+                            There is a huge scope for profits for the brewery in a booming market like India as there continues to be a dire need of premium, luxurious breweries for this niche section of the society.
                         </div>
-                        <span class="m-readmore-click">Read more</span>
                     </div>
                 </div>
             </div>
@@ -143,9 +139,10 @@
                 </div>
             </div>
             <div class="down-video">
-                <video autoplay loop muted>
+                <!-- <video autoplay loop muted>
                     <source src="assets/media/videos/Home Page/Ambeince-Brewery.mp4">
-                </video>
+                </video> -->
+                <img src="assets/media/images/introb1.png" alt="">
             </div>
             <div class="f-logo down">
                 <img src="assets/media/images/ftvlargelogo.png" alt="">
@@ -194,40 +191,9 @@
     <?php include "includes/_footer.php"; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-    </script>
-
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
     <script type="text/javascript">
-        const slideDelay = 3000;
-
-        const dynamicSlider = document.getElementById("textslider");
-
-        var curSlide = 0;
-        window.setInterval(() => {
-            curSlide++;
-            if (curSlide === dynamicSlider.childElementCount) {
-                curSlide = 0;
-            }
-
-            // Actual slide
-            dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
-        }, slideDelay);
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
