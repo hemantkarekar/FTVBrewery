@@ -1,0 +1,773 @@
+.fashiontv {
+    padding-bottom: 20px;
+
+    section {
+        width: 100%;
+        height: 100vh;
+
+        &.autoplay-video {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100vh;
+
+            video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 150%;
+                height: auto;
+                transform: translateX(-25%);
+
+                &.lg {
+                    display: block;
+                }
+
+                &.md {
+                    display: none;
+                }
+            }
+        }
+
+        &.intro {
+            min-height: 100vh;
+            width: 100%;
+            background: url("/assets/media/images/Fashion tv/Intro image -1.png");
+            background-color: black;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center right;
+
+            .intro-content {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+
+                .intro-row {
+                    width: 100%;
+                    height: 100%;
+
+                    .left-bottom {
+                        width: 70%;
+                        height: 100%;
+                        padding: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .text-content {
+                            width: 70%;
+                            height: 50vh;
+                            color: white;
+
+                            h1 {
+                                font-family: "TCCM";
+                                text-transform: uppercase;
+                                font-size: 6rem;
+                            }
+
+                            h3 {
+                                font-family: "TCCM";
+                                text-transform: uppercase;
+                                font-size: 3rem;
+                            }
+
+                            p {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+
+                    .right-top {
+                        padding: 20px;
+                        display: none;
+                        width: 100%;
+                        justify-content: center;
+
+                        .image-content {
+                            width: 90%;
+                            height: 50vh;
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                height: auto;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                .f-logo {
+                    position: absolute;
+                    left: 5%;
+                    bottom: 0;
+                    height: 200px;
+                    width: fit-content;
+
+                    img {
+                        height: auto;
+                        width: 40%;
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+
+        &.channel {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .channel-content {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 5rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 1.3rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+
+                    .media-wrap {
+                        video {}
+                    }
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
+            &.odd {
+                .channel-content {
+                    flex-direction: row;
+                }
+
+                .f-long-logo {
+                    position: absolute;
+                    width: 80%;
+                    height: 100px;
+                    bottom: 0;
+                    left: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.2;
+                    }
+                }
+            }
+
+            &.even {
+                .channel-content {
+                    flex-direction: row-reverse;
+                }
+
+                .f-logo {
+                    position: absolute;
+                    width: auto;
+                    height: 200px;
+                    bottom: 0;
+                    right: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.5;
+                    }
+                }
+            }
+
+            &.socialmedia {
+                min-height: 100vh;
+                width: 100%;
+                background: url("/assets/media/images/Fashion tv/Social media.png");
+                background-color: black;
+                background-size: auto 100%;
+                background-repeat: no-repeat;
+                background-position: center left;
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+
+                    .media-wrap {
+                        video {}
+                    }
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: none;
+                    }
+                }
+
+                .intro-content {
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1440px) {
+        section {
+            &.channel {
+                .channel-content {
+                    .text-content {
+                        .desc {
+                            height: 60vh !important;
+                            overflow-y: scroll;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1024) {
+        section {
+            width: 100%;
+            min-height: 100vh;
+
+            &.autoplay-video {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                height: 100vh;
+
+                video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 150%;
+                    height: auto;
+                    transform: translateX(-25%);
+
+                    &.lg {
+                        display: block;
+                    }
+
+                    &.md {
+                        display: none;
+                    }
+                }
+            }
+
+            &.intro {
+                height: 100vh;
+                width: 100%;
+                background: none;
+                background-color: black;
+
+                .intro-content {
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+
+                    .intro-row {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        width: 100%;
+                        height: 100%;
+
+                        .left-bottom {
+                            width: 50%;
+                            height: 100%;
+                            padding: 20px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .text-content {
+                                width: 70%;
+                                height: 50vh;
+                                color: white;
+
+                                h1 {
+                                    font-family: "TCCM";
+                                    text-transform: uppercase;
+                                    font-size: 6rem;
+                                }
+
+                                h3 {
+                                    font-family: "TCCM";
+                                    text-transform: uppercase;
+                                    font-size: 3rem;
+                                }
+
+                                p {
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+
+                        .right-top {
+                            .image-content {
+
+                                img {}
+                            }
+                        }
+                    }
+
+                    .f-logo {
+                        position: absolute;
+                        left: 5%;
+                        bottom: 0;
+                        height: 200px;
+                        width: fit-content;
+
+                        img {
+                            height: auto;
+                            width: 40%;
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+
+            &.channel {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                .channel-content {
+                    display: flex;
+                    width: 80%;
+                    justify-content: center;
+
+                    .text-content {
+                        width: 50%;
+                        padding: 5% 30px;
+                        color: white;
+
+                        .title {
+                            h1 {
+                                text-transform: uppercase;
+                                font-family: "TCCM";
+                                font-size: 5rem;
+                            }
+                        }
+
+                        .desc>p {
+                            font-size: 1.3rem;
+                            font-family: "Bebas Nueue";
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .media-content {
+                        width: 50%;
+                        padding: 5% 30px;
+                        overflow: hidden;
+
+                        .media-wrap {
+                            video {}
+                        }
+                    }
+                }
+
+                &.odd {
+                    .channel-content {
+                        flex-direction: row;
+                    }
+
+                    .f-long-logo {
+                        position: absolute;
+                        width: 80%;
+                        height: 100px;
+                        bottom: 0;
+                        left: 10%;
+
+                        img {
+                            height: 100%;
+                            width: auto;
+                            opacity: 0.2;
+                        }
+                    }
+                }
+
+                &.even {
+                    .channel-content {
+                        flex-direction: row-reverse;
+                    }
+
+                    .f-logo {
+                        position: absolute;
+                        width: auto;
+                        height: 200px;
+                        bottom: 0;
+                        right: 10%;
+
+                        img {
+                            height: 100%;
+                            width: auto;
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                &.socialmedia {
+                    height: 100vh;
+                    width: 100%;
+                    background: none;
+                    background-color: black;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        section {
+            min-height: 100vh;
+            width: 100%;
+
+            &.autoplay-video {
+                video {
+                    &.md {
+                        display: block;
+                    }
+
+                    &.lg {
+                        display: none;
+                    }
+                }
+            }
+
+            &.intro {
+                background-image: none !important;
+
+                .intro-content {
+
+                    .intro-row {
+                        display: flex;
+                        flex-direction: column-reverse;
+
+                        .left-bottom {
+                            width: 100%;
+                            height: 50vh;
+
+                            .text-content {
+
+                                h1 {}
+
+                                p {
+                                    font-size: 1rem !important;
+                                }
+                            }
+                        }
+
+                        .right-top {
+                            display: block;
+
+                            .image-content {
+
+                                img {}
+                            }
+                        }
+                    }
+
+                    .f-logo {
+
+                        img {}
+                    }
+                }
+            }
+
+            &.channel {
+                display: flex;
+                height: fit-content !important;
+
+                &.odd {
+                    .channel-content {
+                        flex-direction: column-reverse !important;
+                    }
+
+                    .f-long-logo {
+                        height: 50px;
+                    }
+                }
+
+                &.even {
+                    .channel-content {
+                        flex-direction: column-reverse !important;
+                    }
+
+                    .f-logo {
+                        height: 70px;
+                    }
+                }
+
+                .channel-content {
+                    display: flex;
+
+                    .text-content {
+                        width: 100%;
+                        padding: 14px 0 !important;
+
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                        }
+
+                        .desc {
+                            font-size: 16px;
+                            height: 40vh !important;
+                            overflow-y: scroll;
+                        }
+                    }
+
+                    .media-content {
+                        padding: 14px 0 !important;
+                        width: 100%;
+                        height: 70vh;
+                    }
+                }
+
+                &.socialmedia {
+                    height: 100vh;
+                    width: 100%;
+                    background-image: none !important;
+                    background-color: black;
+                    .media-content{
+                        height: fit-content !important;
+                        img{
+                            display: block;
+                        }
+                    }
+                }
+                &.conclusion {
+                    height: 100vh;
+                    width: 100%;
+                    background-image: none !important;
+                    background-color: black;
+                    .media-content{
+                        height: fit-content !important;
+                        img{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        section {
+            min-height: 100vh;
+            width: 100%;
+
+            &.autoplay-video {
+                video {
+                    &.md {
+                        display: block;
+                    }
+
+                    &.lg {
+                        display: none;
+                    }
+                }
+            }
+
+            &.intro {
+                background-size: auto 100%;
+
+                .intro-content {
+
+                    .intro-row {
+                        flex-direction: column;
+
+                        .left-bottom {
+                            width: 100%;
+
+                            .text-content {
+
+                                h1 {
+                                    font-size: 1.8rem;
+                                }
+
+                                p {
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+
+                        .right-top {
+                            width: 100%;
+                            justify-content: center;
+                            align-items: center;
+
+                            .image-content {
+
+                                img {}
+                            }
+                        }
+                    }
+
+                    .f-logo {
+                        left: 0 !important;
+
+                        img {}
+                    }
+                }
+            }
+
+            &.channel {
+                display: flex;
+
+                &.odd {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+
+                    .f-long-logo {
+                        height: 40px !important;
+                    }
+                }
+
+                &.even {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+                }
+
+                .channel-content {
+                    .text-content {
+                        width: 100%;
+                        padding: inherit 0;
+
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 3rem !important;
+                        }
+
+                        .desc>p {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .media-content {
+                        padding: inherit 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:330px) {
+        section {
+            min-height: 100vh;
+            width: 100%;
+
+            &.intro {
+                .intro-content {
+
+                    .intro-row {
+                        flex-direction: column;
+
+                        .left-bottom {
+                            width: 100%;
+
+                            .text-content {
+
+                                h1 {
+                                    font-size: 1.3rem;
+                                }
+
+                                p {}
+                            }
+                        }
+
+                        .right-top {
+                            width: 100%;
+                            justify-content: center;
+                            align-items: center;
+
+                            .image-content {
+
+                                img {}
+                            }
+                        }
+                    }
+
+                    .f-logo {
+
+                        img {}
+                    }
+                }
+            }
+
+            &.channel {
+                display: flex;
+
+                &.odd {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+
+                    .f-long-logo {
+                        height: 50px;
+                    }
+                }
+
+                &.even {
+                    .channel-content {
+                        flex-direction: column !important;
+                    }
+                }
+
+                .channel-content {
+                    .text-content {
+                        width: 100%;
+                        padding: inherit 0;
+
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                        }
+
+                        .desc>p {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .media-content {
+                        padding: inherit 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}

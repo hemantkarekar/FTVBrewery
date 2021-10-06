@@ -23,7 +23,7 @@
                 <a href="kashiffkhan.php">
                     <li>Kashiff Khan</li>
                 </a>
-                <a href="fashintv.php">
+                <a href="fashiontv.php">
                     <li>Fashion TV</li>
                 </a>
                 <a href="channels.php">

@@ -32,7 +32,7 @@
 		</div>
 		<div class="copyrights">
 			<div class="copy-text">
-				<p>© copyright 2020 ftv franchise all rights reserved</p>
+				<p>© Copyright 2020 ftv franchise all rights reserved</p>
 			</div>
 			<div class="brands-img">
 				<img src="/assets/media/images/foo-left-logo.png" class="sociallistimg2">

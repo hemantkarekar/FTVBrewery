@@ -25,12 +25,14 @@
         height: inherit;
         border-top: 1px solid white;
         border-bottom: 1px solid white;
-        &.enquire-now{
+
+        &.enquire-now {
             width: 40%;
             display: flex;
             align-items: center;
             justify-content: flex-end;
-            a{
+
+            a {
                 float: right;
                 padding-right: 100px;
                 text-transform: uppercase;
@@ -188,14 +190,55 @@ header {
 }
 
 @media screen and (max-width:768px) {
-    .nav-layout{
+    .nav-layout {
         justify-content: space-between;
-        .spacer, .center-logo{
+
+        .spacer,
+        .center-logo {
             display: none;
         }
-        .enquire-now{
+
+        .enquire-now {
             border: none;
             width: 80% !important;
+
+            a {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:350px) {
+    header {
+        nav {
+            #menuToggle {
+                right: 25px !important;
+            }
+        }
+    }
+
+    .nav-layout {
+        justify-content: space-between;
+        .spacer,
+        .center-logo {
+            display: none;
+        }
+        .logo{
+            img{
+                height: 70% !important;
+                margin-top: 18px !important;
+                width: auto;
+            }
+        }
+        .enquire-now {
+            border: none;
+            width: 80% !important;
+
+            a {
+                padding-right: 70px !important;
+                font-size: 16px !important;
+            }
         }
     }
 }

@@ -312,12 +312,44 @@ header nav #menuToggle input:checked ~ ul {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .nav-layout .spacer, .nav-layout .center-logo {
+  .nav-layout .spacer,
+  .nav-layout .center-logo {
     display: none;
   }
   .nav-layout .enquire-now {
     border: none;
     width: 80% !important;
+  }
+  .nav-layout .enquire-now a {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  header nav #menuToggle {
+    right: 25px !important;
+  }
+  .nav-layout {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-layout .spacer,
+  .nav-layout .center-logo {
+    display: none;
+  }
+  .nav-layout .logo img {
+    height: 70% !important;
+    margin-top: 18px !important;
+    width: auto;
+  }
+  .nav-layout .enquire-now {
+    border: none;
+    width: 80% !important;
+  }
+  .nav-layout .enquire-now a {
+    padding-right: 70px !important;
+    font-size: 16px !important;
   }
 }
 
@@ -1841,13 +1873,1198 @@ footer .foo-wrap .copyrights .brands-img img {
   }
 }
 
+.kashiffkhan section {
+  position: relative;
+}
+
+.kashiffkhan section.titlesection {
+  padding: 15vh 0 20px 0;
+  height: auto;
+}
+
+.kashiffkhan section.titlesection h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 10vw;
+  color: #F1AB1D;
+}
+
+.kashiffkhan section.titlesection h3 {
+  width: 100%;
+  text-align: center;
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 4vw;
+  color: #ffffff;
+}
+
+.kashiffkhan section.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kashiffkhan section.intro .intro-content {
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.kashiffkhan section.intro .intro-content .title h1 {
+  width: 100%;
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 5vw;
+  color: #F1AB1D;
+}
+
+.kashiffkhan section.intro .intro-content .desc p {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.kashiffkhan section.abstract {
+  width: 100%;
+  height: 120vh;
+}
+
+.kashiffkhan section.abstract .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kashiffkhan section.abstract .content .kashiffabstract {
+  width: 75%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  justify-items: stretch;
+}
+
+.kashiffkhan section.abstract .content .kashiffabstract .kashiffintroimg {
+  overflow: hidden;
+  width: 33.333%;
+  height: 80vh;
+}
+
+.kashiffkhan section.abstract .content .kashiffabstract .kashiffintroimg img {
+  height: auto;
+  width: 100%;
+}
+
+.kashiffkhan section.abstract .content .kashiffabstract .kashiffintroimg:nth-child(2) {
+  margin-top: 10vh;
+}
+
+.kashiffkhan section.abstract .watermark {
+  position: absolute;
+}
+
+.kashiffkhan section.abstract .watermark.f-wings {
+  bottom: 20px;
+  left: 10%;
+  height: 150px;
+}
+
+.kashiffkhan section.abstract .watermark.f-wings img {
+  height: 100%;
+  width: auto;
+  opacity: 0.3;
+}
+
+.kashiffkhan section.abstract .watermark.f-text {
+  bottom: 20px;
+  right: 10%;
+}
+
+.kashiffkhan section.abstract .watermark.f-text h1 {
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 10vw;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  opacity: 0.3;
+}
+
+.kashiffkhan section.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kashiffkhan section.background .background-content {
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.kashiffkhan section.background .background-content .title h1 {
+  width: 100%;
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 5vw;
+  color: #F1AB1D;
+}
+
+.kashiffkhan section.background .background-content .desc {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.kashiffkhan section.background .background-content .desc h3 {
+  font-size: 2vw;
+  color: white;
+  font-weight: 700;
+}
+
+.kashiffkhan section.background .background-content .desc p {
+  font-size: 1.3vw;
+  color: #b3b3b3;
+}
+
+.kashiffkhan section.journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kashiffkhan section.journey .journey-content {
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.kashiffkhan section.journey .journey-content .title h1 {
+  width: 100%;
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 5vw;
+  color: #F1AB1D;
+}
+
+.kashiffkhan section.journey .journey-content .desc {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.kashiffkhan section.journey .journey-content .desc p {
+  font-size: 1.3vw;
+  color: #b3b3b3;
+  text-align: justify;
+}
+
+@media screen and (max-width: 425px) {
+  section {
+    position: relative;
+  }
+  section.titlesection {
+    padding: 15vh 0 20px 0;
+    height: auto;
+  }
+  section.titlesection h1 {
+    width: 100%;
+    text-align: center;
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 14vw !important;
+    color: #F1AB1D;
+  }
+  section.titlesection h3 {
+    width: 100%;
+    text-align: center;
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 7vw !important;
+    color: #ffffff;
+  }
+  section.intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.intro .intro-content {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  section.intro .intro-content .title h1 {
+    width: 100%;
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 7vw !important;
+    color: #F1AB1D;
+  }
+  section.intro .intro-content .desc p {
+    font-size: 3vw !important;
+    color: white;
+  }
+  section.abstract {
+    width: 100%;
+    height: 50vh !important;
+  }
+  section.abstract .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: inherit;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.abstract .content .kashiffabstract {
+    width: 75%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    justify-items: stretch;
+  }
+  section.abstract .content .kashiffabstract .kashiffintroimg {
+    overflow: hidden;
+    width: 33.333%;
+    height: 80vh;
+  }
+  section.abstract .content .kashiffabstract .kashiffintroimg img {
+    height: auto;
+    width: 100%;
+  }
+  section.abstract .content .kashiffabstract .kashiffintroimg:nth-child(2) {
+    margin-top: 10vh;
+  }
+  section.abstract .watermark {
+    position: absolute;
+  }
+  section.abstract .watermark.f-wings {
+    bottom: 20px;
+    left: 10%;
+    height: 70px !important;
+  }
+  section.abstract .watermark.f-wings img {
+    height: 100%;
+    width: auto;
+    opacity: 0.3;
+  }
+  section.abstract .watermark.f-text {
+    bottom: 20px !important;
+    right: 10%;
+  }
+  section.abstract .watermark.f-text h1 {
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 10vw;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    opacity: 0.3;
+  }
+  section.background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 1vh;
+  }
+  section.background .background-content {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  section.background .background-content .title h1 {
+    width: 100%;
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 7vw !important;
+    color: #F1AB1D;
+  }
+  section.background .background-content .desc p {
+    font-size: 3vw !important;
+    color: white;
+  }
+  section.journey {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 1vh;
+  }
+  section.journey .journey-content {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  section.journey .journey-content .title h1 {
+    width: 100%;
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 7vw !important;
+    color: #F1AB1D;
+  }
+  section.journey .journey-content .desc p {
+    font-size: 3vw !important;
+    color: white;
+  }
+}
+
+.fashiontv {
+  padding-bottom: 20px;
+}
+
+.fashiontv section {
+  width: 100%;
+  height: 100vh;
+}
+
+.fashiontv section.autoplay-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.fashiontv section.autoplay-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: auto;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+}
+
+.fashiontv section.autoplay-video video.lg {
+  display: block;
+}
+
+.fashiontv section.autoplay-video video.md {
+  display: none;
+}
+
+.fashiontv section.intro {
+  min-height: 100vh;
+  width: 100%;
+  background: url("/assets/media/images/Fashion tv/Intro image -1.png");
+  background-color: black;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.fashiontv section.intro .intro-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.fashiontv section.intro .intro-content .intro-row {
+  width: 100%;
+  height: 100%;
+}
+
+.fashiontv section.intro .intro-content .intro-row .left-bottom {
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fashiontv section.intro .intro-content .intro-row .left-bottom .text-content {
+  width: 70%;
+  height: 50vh;
+  color: white;
+}
+
+.fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h1 {
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h3 {
+  font-family: "TCCM";
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.fashiontv section.intro .intro-content .intro-row .left-bottom .text-content p {
+  font-size: 1.5rem;
+}
+
+.fashiontv section.intro .intro-content .intro-row .right-top {
+  padding: 20px;
+  display: none;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fashiontv section.intro .intro-content .intro-row .right-top .image-content {
+  width: 90%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fashiontv section.intro .intro-content .intro-row .right-top .image-content img {
+  height: auto;
+  width: 100%;
+}
+
+.fashiontv section.intro .intro-content .f-logo {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  height: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.fashiontv section.intro .intro-content .f-logo img {
+  height: auto;
+  width: 40%;
+  opacity: 0.6;
+}
+
+.fashiontv section.channel {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.fashiontv section.channel .channel-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fashiontv section.channel .channel-content .text-content {
+  width: 50%;
+  padding: 5% 30px;
+  color: white;
+}
+
+.fashiontv section.channel .channel-content .text-content .title h1 {
+  text-transform: uppercase;
+  font-family: "TCCM";
+  font-size: 5rem;
+}
+
+.fashiontv section.channel .channel-content .text-content .desc > p {
+  font-size: 1.3rem;
+  font-family: "Bebas Nueue";
+  text-transform: uppercase;
+}
+
+.fashiontv section.channel .channel-content .media-content {
+  width: 50%;
+  padding: 5% 30px;
+  overflow: hidden;
+}
+
+.fashiontv section.channel .channel-content .media-content img {
+  width: 100%;
+  height: auto;
+}
+
+.fashiontv section.channel.odd .channel-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fashiontv section.channel.odd .f-long-logo {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  bottom: 0;
+  left: 10%;
+}
+
+.fashiontv section.channel.odd .f-long-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.2;
+}
+
+.fashiontv section.channel.even .channel-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.fashiontv section.channel.even .f-logo {
+  position: absolute;
+  width: auto;
+  height: 200px;
+  bottom: 0;
+  right: 10%;
+}
+
+.fashiontv section.channel.even .f-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+}
+
+.fashiontv section.channel.socialmedia {
+  min-height: 100vh;
+  width: 100%;
+  background: url("/assets/media/images/Fashion tv/Social media.png");
+  background-color: black;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.fashiontv section.channel.socialmedia .media-content {
+  width: 50%;
+  padding: 5% 30px;
+  overflow: hidden;
+}
+
+.fashiontv section.channel.socialmedia .media-content img {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.fashiontv section.channel.socialmedia .intro-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1440px) {
+  .fashiontv section.channel .channel-content .text-content .desc {
+    height: 60vh !important;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  .fashiontv section {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .fashiontv section.autoplay-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  .fashiontv section.autoplay-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: auto;
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  .fashiontv section.autoplay-video video.lg {
+    display: block;
+  }
+  .fashiontv section.autoplay-video video.md {
+    display: none;
+  }
+  .fashiontv section.intro {
+    height: 100vh;
+    width: 100%;
+    background: none;
+    background-color: black;
+  }
+  .fashiontv section.intro .intro-content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .fashiontv section.intro .intro-content .intro-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content {
+    width: 70%;
+    height: 50vh;
+    color: white;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h1 {
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 6rem;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h3 {
+    font-family: "TCCM";
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content p {
+    font-size: 1.5rem;
+  }
+  .fashiontv section.intro .intro-content .f-logo {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 200px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .fashiontv section.intro .intro-content .f-logo img {
+    height: auto;
+    width: 40%;
+    opacity: 0.6;
+  }
+  .fashiontv section.channel {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  .fashiontv section.channel .channel-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fashiontv section.channel .channel-content .text-content {
+    width: 50%;
+    padding: 5% 30px;
+    color: white;
+  }
+  .fashiontv section.channel .channel-content .text-content .title h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 5rem;
+  }
+  .fashiontv section.channel .channel-content .text-content .desc > p {
+    font-size: 1.3rem;
+    font-family: "Bebas Nueue";
+    text-transform: uppercase;
+  }
+  .fashiontv section.channel .channel-content .media-content {
+    width: 50%;
+    padding: 5% 30px;
+    overflow: hidden;
+  }
+  .fashiontv section.channel.odd .channel-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .fashiontv section.channel.odd .f-long-logo {
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    bottom: 0;
+    left: 10%;
+  }
+  .fashiontv section.channel.odd .f-long-logo img {
+    height: 100%;
+    width: auto;
+    opacity: 0.2;
+  }
+  .fashiontv section.channel.even .channel-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .fashiontv section.channel.even .f-logo {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom: 0;
+    right: 10%;
+  }
+  .fashiontv section.channel.even .f-logo img {
+    height: 100%;
+    width: auto;
+    opacity: 0.5;
+  }
+  .fashiontv section.channel.socialmedia {
+    height: 100vh;
+    width: 100%;
+    background: none;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fashiontv section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .fashiontv section.autoplay-video video.md {
+    display: block;
+  }
+  .fashiontv section.autoplay-video video.lg {
+    display: none;
+  }
+  .fashiontv section.intro {
+    background-image: none !important;
+  }
+  .fashiontv section.intro .intro-content .intro-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom {
+    width: 100%;
+    height: 50vh;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content p {
+    font-size: 1rem !important;
+  }
+  .fashiontv section.intro .intro-content .intro-row .right-top {
+    display: block;
+  }
+  .fashiontv section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .fashiontv section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .fashiontv section.channel.odd .f-long-logo {
+    height: 50px;
+  }
+  .fashiontv section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .fashiontv section.channel.even .f-logo {
+    height: 70px;
+  }
+  .fashiontv section.channel .channel-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fashiontv section.channel .channel-content .text-content {
+    width: 100%;
+    padding: 14px 0 !important;
+  }
+  .fashiontv section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem;
+  }
+  .fashiontv section.channel .channel-content .text-content .desc {
+    font-size: 16px;
+    height: 40vh !important;
+    overflow-y: scroll;
+  }
+  .fashiontv section.channel .channel-content .media-content {
+    padding: 14px 0 !important;
+    width: 100%;
+    height: 70vh;
+  }
+  .fashiontv section.channel.socialmedia {
+    height: 100vh;
+    width: 100%;
+    background-image: none !important;
+    background-color: black;
+  }
+  .fashiontv section.channel.socialmedia .media-content {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .fashiontv section.channel.socialmedia .media-content img {
+    display: block;
+  }
+  .fashiontv section.channel.conclusion {
+    height: 100vh;
+    width: 100%;
+    background-image: none !important;
+    background-color: black;
+  }
+  .fashiontv section.channel.conclusion .media-content {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .fashiontv section.channel.conclusion .media-content img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fashiontv section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .fashiontv section.autoplay-video video.md {
+    display: block;
+  }
+  .fashiontv section.autoplay-video video.lg {
+    display: none;
+  }
+  .fashiontv section.intro {
+    background-size: auto 100%;
+  }
+  .fashiontv section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom {
+    width: 100%;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h1 {
+    font-size: 1.8rem;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content p {
+    font-size: 1rem;
+  }
+  .fashiontv section.intro .intro-content .intro-row .right-top {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fashiontv section.intro .intro-content .f-logo {
+    left: 0 !important;
+  }
+  .fashiontv section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fashiontv section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .fashiontv section.channel.odd .f-long-logo {
+    height: 40px !important;
+  }
+  .fashiontv section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .fashiontv section.channel .channel-content .text-content {
+    width: 100%;
+    padding: inherit 0;
+  }
+  .fashiontv section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem !important;
+  }
+  .fashiontv section.channel .channel-content .text-content .desc > p {
+    font-size: 16px;
+  }
+  .fashiontv section.channel .channel-content .media-content {
+    padding: inherit 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .fashiontv section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .fashiontv section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom {
+    width: 100%;
+  }
+  .fashiontv section.intro .intro-content .intro-row .left-bottom .text-content h1 {
+    font-size: 1.3rem;
+  }
+  .fashiontv section.intro .intro-content .intro-row .right-top {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fashiontv section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fashiontv section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .fashiontv section.channel.odd .f-long-logo {
+    height: 50px;
+  }
+  .fashiontv section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .fashiontv section.channel .channel-content .text-content {
+    width: 100%;
+    padding: inherit 0;
+  }
+  .fashiontv section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem;
+  }
+  .fashiontv section.channel .channel-content .text-content .desc > p {
+    font-size: 16px;
+  }
+  .fashiontv section.channel .channel-content .media-content {
+    padding: inherit 0;
+    width: 100%;
+  }
+}
+
 .channels {
   padding-bottom: 20px;
 }
 
 .channels section {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
+}
+
+.channels section.autoplay-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.channels section.autoplay-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: auto;
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+}
+
+.channels section.autoplay-video video.lg {
+  display: block;
+}
+
+.channels section.autoplay-video video.md {
+  display: none;
+}
+
+.channels section.intro {
+  height: 100vh;
+  width: 100%;
+  background: url("/assets/media/images/channel -1/image 2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.channels section.intro .intro-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.channels section.intro .intro-content .intro-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.channels section.intro .intro-content .intro-row .left-top {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.channels section.intro .intro-content .intro-row .left-top .text-content {
+  width: 70%;
+  height: 50vh;
+  color: white;
+}
+
+.channels section.intro .intro-content .intro-row .left-top .text-content h1 {
+  font-family: "TCCM";
+  font-size: 6rem;
+}
+
+.channels section.intro .intro-content .intro-row .left-top .text-content p {
+  font-size: 1.5rem;
+}
+
+.channels section.intro .intro-content .intro-row .right-bottom {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.channels section.intro .intro-content .intro-row .right-bottom .image-content {
+  width: 70%;
+  height: 50vh;
+}
+
+.channels section.intro .intro-content .intro-row .right-bottom .image-content img {
+  height: auto;
+  width: 100%;
+}
+
+.channels section.intro .intro-content .f-logo {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  height: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.channels section.intro .intro-content .f-logo img {
+  height: auto;
+  width: 40%;
+  opacity: 0.6;
 }
 
 .channels section.channel {
@@ -1858,6 +3075,7 @@ footer .foo-wrap .copyrights .brands-img img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .channels section.channel .channel-content {
@@ -1879,11 +3097,11 @@ footer .foo-wrap .copyrights .brands-img img {
 .channels section.channel .channel-content .text-content .title h1 {
   text-transform: uppercase;
   font-family: "TCCM";
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .channels section.channel .channel-content .text-content .desc > p {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-family: "Bebas Nueue";
   text-transform: uppercase;
 }
@@ -1901,6 +3119,20 @@ footer .foo-wrap .copyrights .brands-img img {
           flex-direction: row;
 }
 
+.channels section.channel.odd .f-long-logo {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  bottom: 0;
+  left: 10%;
+}
+
+.channels section.channel.odd .f-long-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.2;
+}
+
 .channels section.channel.even .channel-content {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -1908,10 +3140,48 @@ footer .foo-wrap .copyrights .brands-img img {
           flex-direction: row-reverse;
 }
 
+.channels section.channel.even .f-logo {
+  position: absolute;
+  width: auto;
+  height: 200px;
+  bottom: 0;
+  right: 10%;
+}
+
+.channels section.channel.even .f-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 768px) {
   .channels section {
     min-height: 100vh;
     width: 100%;
+  }
+  .channels section.autoplay-video video.md {
+    display: block !important;
+  }
+  .channels section.autoplay-video video.lg {
+    display: none !important;
+  }
+  .channels section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .channels section.intro .intro-content .intro-row .left-top {
+    width: 100%;
+  }
+  .channels section.intro .intro-content .intro-row .right-bottom {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .channels section.channel {
     display: -webkit-box;
@@ -1924,6 +3194,91 @@ footer .foo-wrap .copyrights .brands-img img {
         -ms-flex-direction: column !important;
             flex-direction: column !important;
   }
+  .channels section.channel.odd .f-long-logo {
+    height: 50px;
+  }
+  .channels section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel.even .f-logo {
+    height: 70px;
+  }
+  .channels section.channel .channel-content .text-content {
+    width: 100%;
+    padding: 14px 0 !important;
+  }
+  .channels section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem;
+  }
+  .channels section.channel .channel-content .text-content .desc > p {
+    font-size: 16px;
+  }
+  .channels section.channel .channel-content .media-content {
+    padding: 14px 0 !important;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .channels section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .channels section.autoplay-video video.md {
+    display: block;
+  }
+  .channels section.autoplay-video video.lg {
+    display: none;
+  }
+  .channels section.intro {
+    background-size: auto 100%;
+  }
+  .channels section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .channels section.intro .intro-content .intro-row .left-top {
+    width: 100%;
+  }
+  .channels section.intro .intro-content .intro-row .left-top .text-content h1 {
+    font-size: 1.8rem;
+  }
+  .channels section.intro .intro-content .intro-row .left-top .text-content p {
+    font-size: 1rem;
+  }
+  .channels section.intro .intro-content .intro-row .right-bottom {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .channels section.intro .intro-content .f-logo {
+    left: 0 !important;
+  }
+  .channels section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .channels section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel.odd .f-long-logo {
+    height: 40px !important;
+  }
   .channels section.channel.even .channel-content {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -1933,6 +3288,75 @@ footer .foo-wrap .copyrights .brands-img img {
   .channels section.channel .channel-content .text-content {
     width: 100%;
     padding: inherit 0;
+  }
+  .channels section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem !important;
+  }
+  .channels section.channel .channel-content .text-content .desc > p {
+    font-size: 16px;
+  }
+  .channels section.channel .channel-content .media-content {
+    padding: inherit 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .channels section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .channels section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .channels section.intro .intro-content .intro-row .left-top {
+    width: 100%;
+  }
+  .channels section.intro .intro-content .intro-row .left-top .text-content h1 {
+    font-size: 1.3rem;
+  }
+  .channels section.intro .intro-content .intro-row .right-bottom {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .channels section.channel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .channels section.channel.odd .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel.odd .f-long-logo {
+    height: 50px;
+  }
+  .channels section.channel.even .channel-content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .channels section.channel .channel-content .text-content {
+    width: 100%;
+    padding: inherit 0;
+  }
+  .channels section.channel .channel-content .text-content h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 3rem;
   }
   .channels section.channel .channel-content .text-content .desc > p {
     font-size: 16px;

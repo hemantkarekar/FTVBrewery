@@ -13,10 +13,36 @@
 </style>
 
 <body>
-<?php include "includes/_header.php"; ?>
+  <?php include "includes/_header.php"; ?>
   <main class="channels">
-    <section></section>
-    <section class="intro"></section>
+    <section class="autoplay-video">
+      <video class="lg" autoplay muted loop>
+        <source src="/assets/media/videos/common-intro.mp4">
+      </video>
+      <video class="md"autoplay muted loop>
+        <source src="/assets/media/videos/Channels Videos/Bewery -1.mp4">
+      </video>
+    </section>
+    <section class="intro">
+      <div class="intro-content">
+        <div class="intro-row">
+          <div class="left-top">
+            <div class="text-content">
+              <h1>INTRODUCTION</h1>
+              <p>From the front row of exclusive fashion ramps to the trendy highlights of the entire fashion ecosystem, explore FTV’s 12 thematic channels</p>
+            </div>
+          </div>
+          <div class="right-bottom">
+            <div class="image-content">
+              <img src="assets/media/images/channel -1/12 chammel logo.png" class="chennalimg2">
+            </div>
+          </div>
+        </div>
+        <div class="f-logo">
+          <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+        </div>
+      </div>
+    </section>
     <section class="channel odd">
       <div class="channel-content">
         <div class="text-content">
@@ -38,6 +64,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -64,6 +93,9 @@
           </div>
         </div>
       </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
     </section>
     <section class="channel odd">
       <div class="channel-content">
@@ -88,6 +120,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -115,6 +150,9 @@
           </div>
         </div>
       </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
     </section>
     <section class="channel odd">
       <div class="channel-content">
@@ -136,6 +174,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -160,6 +201,9 @@
           </div>
         </div>
       </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
     </section>
     <section class="channel odd">
       <div class="channel-content">
@@ -182,6 +226,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -206,6 +253,9 @@
           </div>
         </div>
       </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
     </section>
     <section class="channel odd">
       <div class="channel-content">
@@ -228,6 +278,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -252,6 +305,9 @@
           </div>
         </div>
       </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
     </section>
     <section class="channel odd">
       <div class="channel-content">
@@ -274,6 +330,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
       </div>
     </section>
     <section class="channel even">
@@ -303,6 +362,9 @@
             </video>
           </div>
         </div>
+      </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
       </div>
     </section>
   </main>
