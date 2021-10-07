@@ -469,6 +469,7 @@ footer .foo-wrap .subs-wrap .newsletter .right-bottom .links {
 footer .foo-wrap .subs-wrap .newsletter .right-bottom .links p {
   width: 90%;
   color: #D0891D;
+  margin: 0;
 }
 
 footer .foo-wrap .subs-wrap .newsletter .right-bottom .links p a {
@@ -3364,6 +3365,122 @@ footer .foo-wrap .copyrights .brands-img img {
   .channels section.channel .channel-content .media-content {
     padding: inherit 0;
     width: 100%;
+  }
+}
+
+main.why-us section {
+  height: 100vh;
+  width: 100%;
+}
+
+main.why-us section.intro .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+main.why-us section.intro .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main.why-us section.intro .wrap video.md {
+  display: none;
+}
+
+main.why-us section.benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("/assets/media/images/why us/benefits of partnering with us.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+main.why-us section.benefit .wrap {
+  height: 80%;
+  width: 70%;
+}
+
+main.why-us section.benefit .wrap .title h1 {
+  font-family: "TCCM";
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+main.why-us section.benefit .wrap .desc p {
+  color: #d4d4d4;
+  font-size: 1.3rem;
+}
+
+main.why-us section.benefit .f-logo {
+  position: absolute;
+  top: 5%;
+  left: 20px;
+}
+
+main.why-us section.benefit .f-logo img {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  section.intro video {
+    position: absolute;
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transform: translateY(-44%) !important;
+            transform: translateY(-44%) !important;
+  }
+  section.intro video.md {
+    display: block !important;
+  }
+  section.intro video.lg {
+    display: none;
+  }
+  section.benefit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.benefit .wrap {
+    height: 80%;
+    width: 90% !important;
+  }
+  section.benefit .wrap .title h1 {
+    font-family: "TCCM";
+    font-size: 3rem !important;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+  }
+  section.benefit .wrap .desc p {
+    color: #d4d4d4;
+    font-size: 1rem !important;
   }
 }
 

@@ -1,0 +1,112 @@
+main.why-us {
+    section {
+        height: 100vh;
+        width: 100%;
+        &.intro {
+            .wrap {
+                position: relative;
+                height: inherit;
+                width: 100%;
+                overflow: hidden;
+                video {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    height: 120vh;
+                    width: 100%;
+                    transform: translateX(-50%);
+                    &.md{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &.benefit {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("/assets/media/images/why us/benefits of partnering with us.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            .wrap {
+                height: 80%;
+                width: 70%;
+                .title {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 5rem;
+                        text-align: center;
+                        color: white;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .desc {
+                    p {
+                        color: #d4d4d4;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            .f-logo{
+                position: absolute;
+                top: 5%;
+                left: 20px;
+                img{
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:576px) {
+    section{
+        &.intro{
+            video {
+                position: absolute;
+                top: 50% !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: auto !important;
+                transform: translateY(-44%) !important;
+                &.md{
+                    display: block !important;
+                }
+                &.lg{
+                    display: none;
+                }
+            }
+        }
+        &.benefit {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .wrap {
+                height: 80%;
+                width: 90% !important;
+                .title {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 3rem !important;
+                        text-align: center;
+                        color: white;
+                        text-transform: uppercase;
+                    }
+                }
+    
+                .desc {
+                    p {
+                        color: #d4d4d4;
+                        font-size: 1rem !important;
+                    }
+                }
+            }
+        }
+    }          
+}
