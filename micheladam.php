@@ -23,7 +23,7 @@
             <div class="section-wrap">
                 <div class="media-content">
                     <div class="wrap">
-                        <img src="/assets/media/images/m1.png" alt="">
+                        <img src="/assets/media/images/michel01.png" alt="">
                     </div>
                 </div>
                 <div class="text-content">
@@ -53,6 +53,7 @@
                     </div>
                 </div>
                 <div class="text-content">
+                    <div class="brew-logo"><img src="/assets/media/images/homeintro2img1.png" alt=""></div>
                     <div class="title">
                         <h1>Background</h1>
                     </div>
@@ -79,12 +80,7 @@
             <div class="section-wrap">
                 <div class="media-content">
                     <div class="wrap">
-                        <video autoplay loop muted preload="auto" class="lg">
-                            <source src="/assets/media//videos/Brewery- Michel Adam 3.mp4" type="">
-                        </video>
-                        <video autoplay loop muted preload="auto" class="md">
-                            <source src="/assets/media//videos/Brewery-Michel Adam 3mob.mp4" type="">
-                        </video>
+                        <img src="/assets/media/images/m1.png" alt="">
                     </div>
                 </div>
                 <div class="text-content">
@@ -105,7 +101,12 @@
             <div class="section-wrap">
                 <div class="media-content">
                     <div class="wrap">
-                        <img src="" alt="">
+                        <video autoplay loop muted preload="auto" class="lg">
+                            <source src="/assets/media//videos/Brewery- Michel Adam 1.mp4" type="">
+                        </video>
+                        <video autoplay loop muted preload="auto" class="md">
+                            <source src="/assets/media//videos/Brewery-Michel Adam 1mob.mp4" type="">
+                        </video>
                     </div>
                 </div>
                 <div class="text-content">
@@ -119,7 +120,29 @@
                 </div>
             </div>
         </section>
-        <section></section>
+        <section class="message">
+            <div class="section-wrap">
+                <div class="media-content">
+                    <div class="image-wrap">
+                        <img src="/assets/media/images/m2.png" alt="">
+                    </div>
+                </div>
+                <div class="text-content">
+                    <div class="title">
+                        <h1>Message</h1>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            This is <strong class="gbold">Michel Adam</strong>,
+                            <br>founder, and chairman of FashionTV.
+                            <br>I invite you to be a part of FashionTV with FTV Brewery, and likewise, many other business
+                            opportunities presented just for the people of India.
+                            <br>Looking forward to welcoming you on board.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include "includes/_footer.php"; ?>
 </body>

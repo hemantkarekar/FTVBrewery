@@ -27,6 +27,7 @@
 
         &.introduction {
             width: 100%;
+            height: fit-content;
             display: flex;
             justify-content: center;
             position: relative;
@@ -38,10 +39,15 @@
 
                 .media-content {
                     width: 50%;
-                    padding: 5% 30px;
+                    padding: 5% 30px 0;
                     overflow: hidden;
+
                     .wrap {
-                        img {}
+                        width: 100%;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
                     }
                 }
 
@@ -59,7 +65,7 @@
                     }
 
                     .desc>p {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         font-family: "Bebas Nueue";
                         text-transform: uppercase;
                     }
@@ -77,17 +83,24 @@
                 display: flex;
                 width: 80%;
                 justify-content: center;
+                flex-direction: row-reverse;
 
                 .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+
                     .wrap {
+                        position: relative;
+
                         video {
                             position: absolute;
                             top: 0;
                             left: 50%;
                             height: 120vh;
-                            width: 100%;
+                            width: auto;
                             transform: translateX(-50%);
-        
+
                             &.md {
                                 display: none;
                             }
@@ -100,6 +113,16 @@
                     padding: 5% 30px;
                     color: white;
 
+                    .brew-logo {
+                        width: 200px;
+                        height: fit-content;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
                     .title {
                         h1 {
                             text-transform: uppercase;
@@ -109,7 +132,7 @@
                     }
 
                     .desc>p {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         font-family: "Bebas Nueue";
                         text-transform: uppercase;
                     }
@@ -118,7 +141,7 @@
         }
 
         &.just-video {
-            .wrap {
+            .section-wrap {
                 position: relative;
                 height: inherit;
                 width: 100%;
@@ -139,15 +162,208 @@
             }
         }
 
+        &.journey {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            background-image: url("/assets/media/images/journeybg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
 
+            .section-wrap {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px 0;
+                    overflow: hidden;
+
+                    .wrap {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .brew-logo {
+                        width: 200px;
+                        height: fit-content;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 4.5rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 1.5rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+        &.future {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .section-wrap {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+                flex-direction: row-reverse;
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+
+                    .wrap {
+                        position: relative;
+
+                        video {
+                            position: absolute;
+                            top: 0;
+                            left: 50%;
+                            height: 120vh;
+                            width: auto;
+                            transform: translateX(-50%);
+
+                            &.md {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .brew-logo {
+                        width: 200px;
+                        height: fit-content;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 4.5rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 1.5rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+        &.message {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            background-image: url("/assets/media/images/michal4.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .section-wrap {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px 0;
+                    overflow: hidden;
+
+                    .image-wrap {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            width: 200px;
+                            height: auto;
+                            border: 10px solid white;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .brew-logo {
+                        width: 200px;
+                        height: fit-content;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 4.5rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 1.5rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (max-width:576px) {
-    .franchise {
+    .micheladam {
         section {
-            height: fit-content;
-
             &.intro {
                 video {
                     position: absolute;
@@ -167,6 +383,59 @@
                 }
             }
 
+            &.introduction {
+                height: fit-content !important;
+                .section-wrap {
+                    display: block;
+                    width: 100%;
+                    .media-content {
+                        width: 100%;
+                    }
+
+                    .text-content {
+                        width: 100%;
+                        padding: 5% !important;
+                        .title{
+                            h1{
+                                font-size: 3rem;
+                            }
+                        }
+                        .desc{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.background {
+            height: fit-content !important;
+                .section-wrap {
+                    display: block;
+
+                    .media-content {
+                        width: 100%;
+                        height: 70vh;
+                    }
+
+                    .text-content {
+                        width: 100%;
+                        padding: 5% !important;
+                        .title{
+                            h1{
+                                font-size: 3rem;
+                            }
+                        }
+                        .desc{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
             &.just-video {
                 video {
                     position: absolute;
@@ -182,6 +451,85 @@
 
                     &.lg {
                         display: none;
+                    }
+                }
+            }
+
+            &.journey {
+                height: fit-content !important;
+                .section-wrap {
+                    display: block;
+
+                    .media-content {
+                        width: 100%;
+                    }
+
+                    .text-content {
+                        width: 100%;
+                        padding: 5% !important;
+                        .title{
+                            h1{
+                                font-size: 3rem;
+                            }
+                        }
+                        .desc{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.future {
+                height: fit-content !important;
+                .section-wrap {
+                    display: block;
+
+                    .media-content {
+                        width: 100%;
+                        height: 70vh;
+                    }
+
+                    .text-content {
+                        width: 100%;
+                        padding: 5% !important;
+                        .title{
+                            h1{
+                                font-size: 3rem;
+                            }
+                        }
+                        .desc{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.message {
+                height: fit-content !important;
+                .section-wrap {
+                    display: block;
+
+                    .media-content {
+                        width: 100%;
+                    }
+
+                    .text-content {
+                        width: 100%;
+                        padding: 5% !important;
+                        .title{
+                            h1{
+                                font-size: 3rem;
+                            }
+                        }
+                        .desc{
+                            p{
+                                font-size: 1.2rem;
+                            }
+                        }
                     }
                 }
             }

@@ -19,7 +19,7 @@
       <video class="lg" autoplay muted loop>
         <source src="/assets/media/videos/common-intro.mp4">
       </video>
-      <video class="md"autoplay muted loop>
+      <video class="md" autoplay muted loop>
         <source src="/assets/media/videos/Channels Videos/Bewery -1.mp4">
       </video>
     </section>
@@ -365,6 +365,143 @@
       </div>
       <div class="f-logo">
         <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
+    </section>
+    <section class="channel odd">
+      <div class="channel-content">
+        <div class="text-content">
+          <div class="title">
+            <h1>Reach</h1>
+          </div>
+          <div class="desc">
+            <p>
+              Fashion TV is the biggest fashion media in the world and the only global 24x7 television station focused exclusively on fashion, beauty, trends, and lifestyle. It is a global multimedia network leader in fashion and lifestyle content, broadcasting to over 60 satellites in SD, HD, and 3D, 530+ TV platforms, mobiles, IPTV, smart TVs, and smartphones.
+              It has over 300 hours of new programming each month highlighting the latest trends, major fashion shows, designer events, and highlights of fashion industry professionals. Fashion TV can be viewed on the following: Apple TV, Roku, Youku and will soon be available on many mobile devices such as Sony, Verizon, MTC, Ericsson to name a few.
+            </p>
+            <ul>
+              <li>500 million Households TV Sets globally</li>
+              <li>World’s 4th Most Distributed Channel</li>
+              <li>10 Million Public Places Globally</li>
+              <li>5M pageviews on FashionTV.com</li>
+              <li>65 million views on FashionTV YouTube channel</li>
+              <li>12 million views per week on Facebook</li>
+              <li>300K followers on Instagram with 125K organic reach per month.</li>
+              <li> 4 million followers on Facebook</li>
+            </ul>
+          </div>
+        </div>
+        <div class="media-content">
+          <div class="image-wrap">
+            <img src="/assets/media/images/image -4.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
+      </div>
+    </section>
+    <section class="channel even">
+      <div class="channel-content">
+        <div class="text-content">
+          <div class="title">
+            <h1>Audience</h1>
+          </div>
+          <div class="desc">
+            <p>
+              The FTV audience has a high standard when it comes to their taste in fashion. They swear by the world’s leading designers and dress to impress. <br>
+              These beautiful people have an exclusive and expensive taste in fashion and are ready to spend their money on the best that fashion has to offer. They are aware, socially well connected and networking is an important part of their lives.<br>
+              Here are some of the amazing facts about FashionTV’s audience.
+            </p>
+            <ul>
+              <li>270,000 affluent Fashion TV viewers bought jewellery (not a watch) over €1,500.</li>
+              <li>213,000 affluent Fashion TV viewers bought designer suits/ dresses worth over €1000.</li>
+              <li>11% of the affluent Fashion TV viewers bought a briefcase/ handbag over €500.</li>
+              <li>301,000 affluent Fashion TV viewers bought a pair of shoes over €500.</li>
+              <li>n the last 12 months, monthly Fashion TV viewers made seven return air trips on average and they spent 23 nights in hotels.</li>
+              <li>In comparison to other TV channels, FTV viewers are more affluent, older and have a higher education. They have a high-income bracket and the viewers are younger than the average viewer for a news or sports channel is. (largely 18-24 years of age).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="media-content">
+          <div class="image-wrap">
+            <img src="/assets/media/images/image -3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="f-logo">
+        <img src="assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
+      </div>
+    </section>
+    <section class="channel odd">
+      <div class="channel-content">
+        <div class="text-content">
+          <div class="title">
+            <h1>Viewership</h1>
+          </div>
+          <div class="desc">
+            <p>
+              FashionTV has a niche audience whose viewers consist of celebrities, models, and designers who have excellent taste and whose fashion choices and purchases are influenced by FashionTV. Keeping up with millennials and the age of digitalization, our outreach has been staggering and Fashion TV is on every social media platform. <br>
+              FashionTV’s viewers love the premium content they receive on FashionTV channels. The viewers of FashionTV watch the channel for an average of 45 minutes per day as seen in June 2017. Following are some of the interesting statistics about FashionTV viewers.<br>
+            <ul>
+              <li>29% of the interviewed individuals know FashionTV with a high viewership of the age group of men between 25 to 49 years old.</li>
+              <li>21% of individuals who know FashionTV also watch it. Among them, 6% are regular viewers and 15% are occasional viewers.</li>
+              <li>47% of viewers give FashionTV a rating between 7 and 10.</li>
+              <li>FashionTV channel viewership is the highest between the times 8.30 pm to 10.45 pm.</li>
+              <li>84% of viewers appreciate at least one of the topics covered by FashionTV.</li>
+              <li>FashionTV has 44% of the share of fashion and lifestyle channels in India.</li>
+              <li>The majority of the FashionTV viewers in India are from the north region with a 42% share.</li>
+              <li>FashionTV’s male viewership is 57% and female viewership is 43%.</li>
+              <li>60% of the viewers watch FashionTV on weekdays.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="media-content">
+          <div class="image-wrap">
+            <img src="/assets/media/images/image -4.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="f-long-logo">
+        <img src="/assets/media/images/fashion.png" alt="">
+      </div>
+    </section>
+    <section class="channel even">
+      <div class="channel-content">
+        <div class="text-content">
+          <div class="title">
+            <h1>Partner Brands</h1>
+          </div>
+          <div class="desc">
+            <p>
+              Fashion TV has always been synonymous to fashion, luxury, and beauty aesthetics. We keep collaborating with popular and premium fashion brands around the world ranging from categories like cosmetics, accessories, exotics cars to premium apparel. We present an opportunity to every premium, luxurious brand in the world to partner with us and relish the fruits of FashionTV enormous brand value.
+              <br>
+              With FashionTV, various premium brands get an opportunity to be showcased in various fashion events like fashion weeks, photoshoots, calendar shoots, afterparties, and a lost list of events. Our partner brands get global recognition and a chance to showcase their brand, products and services in front of FashionTV's massive affluent audience. We collaborate with premium brands to ensure our opulent audience gets the best of what fashion has to offer. Here are some of our partner brands who have collaborated with FashionTV.
+            </p>
+            <ul>
+              <li>
+                <strong>Designer labels associated with FTV</strong> - Dior, Burberry, Bvlgari, Chanel, Dolce & Gabbana, Hermes, Ermenegildo Zegna, Prada, Versace, Chanel, MaxMara, Fendi, Hermes, and Gucci to name a few.
+              </li>
+              <li>
+                <strong>Luxury Automobiles</strong> - Bentley, Ferrari, Lamborghini, Aston Martin, Mercedes Benz.
+              </li>
+              <li>
+                <strong>Luxury Timepieces</strong> - Chopard, Rolex, Cartier.
+              </li>
+              <li>
+                <strong>Luxury Accessories</strong> - Tiffany and Co, Lancome.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="media-content">
+          <div class="image-wrap">
+            <img src="/assets/media/images/image -3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="f-logo">
+        <img src="/assets/media/images/channel -1/f logo -2.png" class="chennalimg3">
       </div>
     </section>
   </main>

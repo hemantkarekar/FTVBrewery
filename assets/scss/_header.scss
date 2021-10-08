@@ -150,13 +150,13 @@ header {
 
         #menu {
             position: absolute;
-            width: 100vw;
+            width: 50vw;
             height: 100vh;
             margin: -68px 50px 0 0;
             padding: 50px;
             padding-top: 125px;
             right: -100px;
-            background: #ededed;
+            background: rgba(237, 237, 237, 0.6);
             list-style-type: none;
             -webkit-font-smoothing: antialiased;
 
@@ -167,8 +167,10 @@ header {
             transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 
             li {
+                text-align: center;
                 padding: 10px 0;
                 font-size: 22px;
+                font-weight: 800;
             }
         }
 
@@ -184,6 +186,7 @@ header {
                 opacity: 0;
                 display: none;
                 transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+                width: 100vw;
             }
         }
     }
@@ -207,6 +210,10 @@ header {
             }
         }
     }
+
+    #menu {
+        
+    }
 }
 
 @media screen and (max-width:350px) {
@@ -220,17 +227,20 @@ header {
 
     .nav-layout {
         justify-content: space-between;
+
         .spacer,
         .center-logo {
             display: none;
         }
-        .logo{
-            img{
+
+        .logo {
+            img {
                 height: 70% !important;
                 margin-top: 18px !important;
                 width: auto;
             }
         }
+
         .enquire-now {
             border: none;
             width: 80% !important;
