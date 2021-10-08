@@ -1,0 +1,356 @@
+.ourfeatures {
+    section {
+        height: 100vh;
+        width: 100%;
+        &.intro {
+            .wrap {
+                position: relative;
+                height: inherit;
+                width: 100%;
+                overflow: hidden;
+
+                video {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    height: 120vh;
+                    width: 100%;
+                    transform: translateX(-50%);
+
+                    &.md {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.just-video {
+            .wrap {
+                position: relative;
+                height: inherit;
+                width: 100%;
+                overflow: hidden;
+                video {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    height: 120vh;
+                    width: 100%;
+                    transform: translateX(-50%);
+
+                    &.md {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.feature {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .feature-content {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+
+                .text-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 4.5rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 2rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+
+                .media-content {
+                    width: 50%;
+                    padding: 5% 30px;
+                    overflow: hidden;
+
+                    .video-wrap {
+                        video {}
+                    }
+                }
+            }
+
+            &.odd {
+                .feature-content {
+                    flex-direction: row;
+                }
+
+                .f-long-logo {
+                    position: absolute;
+                    width: 80%;
+                    height: 100px;
+                    bottom: 0;
+                    left: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.2;
+                    }
+                }
+            }
+
+            &.even {
+                .feature-content {
+                    flex-direction: row-reverse;
+                }
+
+                .f-logo {
+                    position: absolute;
+                    width: auto;
+                    height: 200px;
+                    bottom: 0;
+                    right: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+        &:nth-child(2){
+            background: url("/assets/media/images/features/our features.png");
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(3){
+            background: url("/assets/media/images/features/elegent realxing.png");
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(4){
+            background: url("/assets/media/images/features/premium beverages.png");
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(5){
+            background: url("/assets/media/images/features/Melodius music.png");
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(6){
+            background: url("/assets/media/images/features/comfort food.png");
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(7){
+            background: url("/assets/media/images/features/fashionable crowd.png");
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    section {
+        width: 100%;
+        &.intro {
+            video {
+                position: absolute;
+                top: 50% !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: auto !important;
+                transform: translateY(-44%) !important;
+
+                &.md {
+                    display: block !important;
+                }
+
+                &.lg {
+                    display: none;
+                }
+            }
+        }
+        &.feature {
+            height: fit-content !important;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            .feature-content {
+                display: block !important;
+                width: 80%;
+                justify-content: center;
+
+                .text-content {
+                    width: 100% !important;
+                    padding: 5% 30px;
+                    color: white;
+
+                    .title {
+                        h1 {
+                            text-transform: uppercase;
+                            font-family: "TCCM";
+                            font-size: 4rem;
+                        }
+                    }
+
+                    .desc>p {
+                        font-size: 1.2rem;
+                        font-family: "Bebas Nueue";
+                        text-transform: uppercase;
+                    }
+                }
+
+                .media-content {
+                    width: 100% !important;
+                    padding: 5% 30px;
+                    overflow: hidden;
+                    .video-wrap {
+                        height: 50vh;
+                        video {}
+                    }
+                }
+            }
+
+            &.odd {
+                .feature-content {
+                    flex-direction: row;
+                }
+
+                .f-long-logo {
+                    position: absolute;
+                    width: 80%;
+                    height: 30px !important;
+                    bottom: 0;
+                    left: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.2;
+                    }
+                }
+            }
+
+            &.even {
+                .feature-content {
+                    flex-direction: row-reverse;
+                }
+
+                .f-logo {
+                    position: absolute;
+                    width: auto;
+                    height: 200px;
+                    bottom: 0;
+                    right: 10%;
+
+                    img {
+                        height: 100%;
+                        width: auto;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    section {
+        min-height: 100vh;
+        width: 100%;
+        &.intro {
+            background-size: auto 100%;
+            .intro-content {
+
+                .intro-row {
+                    flex-direction: column;
+
+                    .left-top {
+                        width: 100%;
+
+                        .text-content {
+
+                            h1 {
+                                font-size: 1.8rem;
+                            }
+
+                            p {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+
+                    .right-bottom {
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+
+                        .image-content {
+
+                            img {}
+                        }
+                    }
+                }
+
+                .f-logo {
+                    left: 0 !important;
+                    img {}
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:330px) {
+    section {
+        min-height: 100vh;
+        width: 100%;
+
+        &.intro {
+            .intro-content {
+
+                .intro-row {
+                    flex-direction: column;
+
+                    .left-top {
+                        width: 100%;
+
+                        .text-content {
+
+                            h1 {
+                                font-size: 1.3rem;
+                            }
+
+                            p {}
+                        }
+                    }
+
+                    .right-bottom {
+                        width: 100%;
+                        justify-content: center;
+                        align-items: center;
+
+                        .image-content {
+
+                            img {}
+                        }
+                    }
+                }
+
+                .f-logo {
+
+                    img {}
+                }
+            }
+        }
+    }
+}

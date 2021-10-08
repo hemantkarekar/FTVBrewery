@@ -1874,6 +1874,189 @@ footer .foo-wrap .copyrights .brands-img img {
   }
 }
 
+.micheladam section {
+  height: 100vh;
+  width: 100%;
+}
+
+.micheladam section.intro .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.micheladam section.intro .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.micheladam section.intro .wrap video.md {
+  display: none;
+}
+
+.micheladam section.introduction {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.micheladam section.introduction .section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.micheladam section.introduction .section-wrap .media-content {
+  width: 50%;
+  padding: 5% 30px;
+  overflow: hidden;
+}
+
+.micheladam section.introduction .section-wrap .text-content {
+  width: 50%;
+  padding: 5% 30px;
+  color: white;
+}
+
+.micheladam section.introduction .section-wrap .text-content .title h1 {
+  text-transform: uppercase;
+  font-family: "TCCM";
+  font-size: 4.5rem;
+}
+
+.micheladam section.introduction .section-wrap .text-content .desc > p {
+  font-size: 2rem;
+  font-family: "Bebas Nueue";
+  text-transform: uppercase;
+}
+
+.micheladam section.background {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.micheladam section.background .section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.micheladam section.background .section-wrap .media-content .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.micheladam section.background .section-wrap .media-content .wrap video.md {
+  display: none;
+}
+
+.micheladam section.background .section-wrap .text-content {
+  width: 50%;
+  padding: 5% 30px;
+  color: white;
+}
+
+.micheladam section.background .section-wrap .text-content .title h1 {
+  text-transform: uppercase;
+  font-family: "TCCM";
+  font-size: 4.5rem;
+}
+
+.micheladam section.background .section-wrap .text-content .desc > p {
+  font-size: 2rem;
+  font-family: "Bebas Nueue";
+  text-transform: uppercase;
+}
+
+.micheladam section.just-video .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.micheladam section.just-video .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.micheladam section.just-video .wrap video.md {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .franchise section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .franchise section.intro video {
+    position: absolute;
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transform: translateY(-44%) !important;
+            transform: translateY(-44%) !important;
+  }
+  .franchise section.intro video.md {
+    display: block !important;
+  }
+  .franchise section.intro video.lg {
+    display: none;
+  }
+  .franchise section.just-video video {
+    position: absolute;
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transform: translateY(-44%) !important;
+            transform: translateY(-44%) !important;
+  }
+  .franchise section.just-video video.md {
+    display: block !important;
+  }
+  .franchise section.just-video video.lg {
+    display: none;
+  }
+}
+
 .kashiffkhan section {
   position: relative;
 }
@@ -3365,6 +3548,1010 @@ footer .foo-wrap .copyrights .brands-img img {
   .channels section.channel .channel-content .media-content {
     padding: inherit 0;
     width: 100%;
+  }
+}
+
+.ourfeatures section {
+  height: 100vh;
+  width: 100%;
+}
+
+.ourfeatures section.intro .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ourfeatures section.intro .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.ourfeatures section.intro .wrap video.md {
+  display: none;
+}
+
+.ourfeatures section.just-video .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ourfeatures section.just-video .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.ourfeatures section.just-video .wrap video.md {
+  display: none;
+}
+
+.ourfeatures section.feature {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.ourfeatures section.feature .feature-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ourfeatures section.feature .feature-content .text-content {
+  width: 50%;
+  padding: 5% 30px;
+  color: white;
+}
+
+.ourfeatures section.feature .feature-content .text-content .title h1 {
+  text-transform: uppercase;
+  font-family: "TCCM";
+  font-size: 4.5rem;
+}
+
+.ourfeatures section.feature .feature-content .text-content .desc > p {
+  font-size: 2rem;
+  font-family: "Bebas Nueue";
+  text-transform: uppercase;
+}
+
+.ourfeatures section.feature .feature-content .media-content {
+  width: 50%;
+  padding: 5% 30px;
+  overflow: hidden;
+}
+
+.ourfeatures section.feature.odd .feature-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ourfeatures section.feature.odd .f-long-logo {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  bottom: 0;
+  left: 10%;
+}
+
+.ourfeatures section.feature.odd .f-long-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.2;
+}
+
+.ourfeatures section.feature.even .feature-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.ourfeatures section.feature.even .f-logo {
+  position: absolute;
+  width: auto;
+  height: 200px;
+  bottom: 0;
+  right: 10%;
+}
+
+.ourfeatures section.feature.even .f-logo img {
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+}
+
+.ourfeatures section:nth-child(2) {
+  background: url("/assets/media/images/features/our features.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ourfeatures section:nth-child(3) {
+  background: url("/assets/media/images/features/elegent realxing.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ourfeatures section:nth-child(4) {
+  background: url("/assets/media/images/features/premium beverages.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ourfeatures section:nth-child(5) {
+  background: url("/assets/media/images/features/Melodius music.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ourfeatures section:nth-child(6) {
+  background: url("/assets/media/images/features/comfort food.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ourfeatures section:nth-child(7) {
+  background: url("/assets/media/images/features/fashionable crowd.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+  section.intro video {
+    position: absolute;
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transform: translateY(-44%) !important;
+            transform: translateY(-44%) !important;
+  }
+  section.intro video.md {
+    display: block !important;
+  }
+  section.intro video.lg {
+    display: none;
+  }
+  section.feature {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  section.feature .feature-content {
+    display: block !important;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.feature .feature-content .text-content {
+    width: 100% !important;
+    padding: 5% 30px;
+    color: white;
+  }
+  section.feature .feature-content .text-content .title h1 {
+    text-transform: uppercase;
+    font-family: "TCCM";
+    font-size: 4rem;
+  }
+  section.feature .feature-content .text-content .desc > p {
+    font-size: 1.2rem;
+    font-family: "Bebas Nueue";
+    text-transform: uppercase;
+  }
+  section.feature .feature-content .media-content {
+    width: 100% !important;
+    padding: 5% 30px;
+    overflow: hidden;
+  }
+  section.feature .feature-content .media-content .video-wrap {
+    height: 50vh;
+  }
+  section.feature.odd .feature-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  section.feature.odd .f-long-logo {
+    position: absolute;
+    width: 80%;
+    height: 30px !important;
+    bottom: 0;
+    left: 10%;
+  }
+  section.feature.odd .f-long-logo img {
+    height: 100%;
+    width: auto;
+    opacity: 0.2;
+  }
+  section.feature.even .feature-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  section.feature.even .f-logo {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    bottom: 0;
+    right: 10%;
+  }
+  section.feature.even .f-logo img {
+    height: 100%;
+    width: auto;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  section.intro {
+    background-size: auto 100%;
+  }
+  section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.intro .intro-content .intro-row .left-top {
+    width: 100%;
+  }
+  section.intro .intro-content .intro-row .left-top .text-content h1 {
+    font-size: 1.8rem;
+  }
+  section.intro .intro-content .intro-row .left-top .text-content p {
+    font-size: 1rem;
+  }
+  section.intro .intro-content .intro-row .right-bottom {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.intro .intro-content .f-logo {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  section {
+    min-height: 100vh;
+    width: 100%;
+  }
+  section.intro .intro-content .intro-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.intro .intro-content .intro-row .left-top {
+    width: 100%;
+  }
+  section.intro .intro-content .intro-row .left-top .text-content h1 {
+    font-size: 1.3rem;
+  }
+  section.intro .intro-content .intro-row .right-bottom {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.franchise section {
+  height: 100vh;
+  width: 100%;
+}
+
+.franchise section.intro .wrap {
+  position: relative;
+  height: inherit;
+  width: 100%;
+  overflow: hidden;
+}
+
+.franchise section.intro .wrap video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 120vh;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.franchise section.intro .wrap video.md {
+  display: none;
+}
+
+.franchise section.modules {
+  background: url("/assets/media/images/image2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.franchise section.modules .title h1 {
+  font-family: "TCCM";
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.franchise section.modules .desc.table {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.franchise section.modules .desc.table table,
+.franchise section.modules .desc.table th,
+.franchise section.modules .desc.table td {
+  border: 1px solid white;
+  color: white;
+}
+
+.franchise section.modules .desc.table table th,
+.franchise section.modules .desc.table table td {
+  padding: 1vw 5vw;
+}
+
+.franchise section.modules .desc.table table th {
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.franchise section.modules .desc.table table tr td:first-child {
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (min-width: 576px) {
+  .franchise section.modules .desc.table table th,
+  .franchise section.modules .desc.table table td {
+    padding: 1vw 5vw;
+  }
+}
+
+.franchise section.pre-req {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.franchise section.pre-req .image-content {
+  width: 70%;
+  height: 90%;
+}
+
+.franchise section.pre-req .image-content .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.franchise section.pre-req .image-content .wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.franchise section.pre-req .image-content .wrap .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(19%, black), color-stop(100%, rgba(0, 0, 0, 0)), to(black));
+  background: linear-gradient(90deg, black 0%, black 19%, rgba(0, 0, 0, 0) 100%, black 100%);
+}
+
+.franchise section.pre-req .text-content {
+  width: 70%;
+  height: 90%;
+}
+
+.franchise section.pre-req .text-content .title h1 {
+  font-family: "TCCM";
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.franchise section.pre-req .text-content .desc ul {
+  list-style-type: square;
+}
+
+.franchise section.pre-req .text-content .desc ul li {
+  font-family: "TCCM";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.franchise section.brand-support {
+  background: url("/assets/media/images/image bg bw.png");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.franchise section.brand-support .image-content {
+  width: 70%;
+  height: 90%;
+}
+
+.franchise section.brand-support .image-content .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.franchise section.brand-support .image-content .wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.franchise section.brand-support .image-content .wrap .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(19%, black), color-stop(100%, rgba(0, 0, 0, 0)), to(black));
+  background: linear-gradient(90deg, black 0%, black 19%, rgba(0, 0, 0, 0) 100%, black 100%);
+}
+
+.franchise section.brand-support .text-content {
+  width: 70%;
+  height: 90%;
+}
+
+.franchise section.brand-support .text-content .title h1 {
+  font-family: "TCCM";
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.franchise section.brand-support .text-content .desc p {
+  font-family: "TCCM";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.franchise section.enquiry-form {
+  padding: 0 20%;
+}
+
+.franchise section.enquiry-form .title-wrap h1 {
+  font-family: "TCCM";
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.franchise section.enquiry-form .form-wrap {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.franchise section.enquiry-form .form-wrap .form-title {
+  width: 50%;
+}
+
+.franchise section.enquiry-form .form-wrap .form-title h1 {
+  font-family: "TCCM";
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1;
+  margin: 0;
+}
+
+.franchise section.enquiry-form .form-wrap .form-content {
+  width: 50%;
+}
+
+.franchise section.enquiry-form .form-wrap .form-content form input {
+  width: 100%;
+  font-family: "TCCM";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  background: none;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid white;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+.franchise section.enquiry-form .form-wrap .form-content form input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.franchise section.enquiry-form .form-wrap .form-content form input[type="submit"]:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.franchise section.enquiry-form .form-wrap .form-content form textarea {
+  width: 100%;
+  font-family: "TCCM";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: white;
+  background: none;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid white;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .franchise section.pre-req {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  .franchise section.pre-req .image-content {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+  }
+  .franchise section.pre-req .image-content .wrap {
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+  }
+  .franchise section.pre-req .image-content .wrap img {
+    width: 100%;
+    height: auto;
+  }
+  .franchise section.pre-req .image-content .wrap .gradient {
+    display: none;
+  }
+  .franchise section.pre-req .text-content {
+    width: 100%;
+    height: 90%;
+  }
+  .franchise section.pre-req .text-content .title h1 {
+    font-family: "TCCM";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.pre-req .text-content .desc ul {
+    list-style-type: square;
+  }
+  .franchise section.pre-req .text-content .desc ul li {
+    font-family: "TCCM";
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.modules {
+    background: url("/assets/media/images/image2.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .franchise section.modules .title h1 {
+    font-family: "TCCM";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+  }
+  .franchise section.brand-support {
+    background: url("/assets/media/images/image bg bw.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  .franchise section.brand-support .image-content {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+  }
+  .franchise section.brand-support .image-content .wrap {
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+  }
+  .franchise section.brand-support .image-content .wrap img {
+    width: 100%;
+    height: auto;
+  }
+  .franchise section.brand-support .image-content .wrap .gradient {
+    display: none;
+  }
+  .franchise section.brand-support .text-content {
+    width: 100%;
+    height: 90%;
+  }
+  .franchise section.brand-support .text-content .title h1 {
+    font-family: "TCCM";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.brand-support .text-content .desc p {
+    font-family: "TCCM";
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.enquiry-form {
+    padding: 0 10%;
+  }
+  .franchise section.enquiry-form .title-wrap h1 {
+    font-family: "TCCM";
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+  }
+  .franchise section.enquiry-form .form-wrap {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .franchise section.enquiry-form .form-wrap .form-title {
+    width: 100%;
+  }
+  .franchise section.enquiry-form .form-wrap .form-title h1 {
+    font-family: "TCCM";
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1;
+    margin: 0;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content {
+    width: 100%;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input {
+    width: 100%;
+    font-family: "TCCM";
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form textarea {
+    width: 100%;
+    font-family: "TCCM";
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .franchise section.intro video {
+    position: absolute;
+    top: 50% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transform: translateY(-44%) !important;
+            transform: translateY(-44%) !important;
+  }
+  .franchise section.intro video.md {
+    display: block !important;
+  }
+  .franchise section.intro video.lg {
+    display: none;
+  }
+  .franchise section.pre-req {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  .franchise section.pre-req .image-content {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+  }
+  .franchise section.pre-req .image-content .wrap {
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+  }
+  .franchise section.pre-req .image-content .wrap img {
+    width: 100%;
+    height: auto;
+  }
+  .franchise section.pre-req .image-content .wrap .gradient {
+    display: none;
+  }
+  .franchise section.pre-req .text-content {
+    width: 100%;
+    height: 90%;
+  }
+  .franchise section.pre-req .text-content .title h1 {
+    font-family: "TCCM";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.pre-req .text-content .desc ul {
+    list-style-type: square;
+  }
+  .franchise section.pre-req .text-content .desc ul li {
+    font-family: "TCCM";
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.brand-support {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background: url("/assets/media/images/image bg bw.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  .franchise section.brand-support .image-content {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+  }
+  .franchise section.brand-support .image-content .wrap {
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+  }
+  .franchise section.brand-support .image-content .wrap img {
+    width: 100%;
+    height: auto;
+  }
+  .franchise section.brand-support .image-content .wrap .gradient {
+    display: none;
+  }
+  .franchise section.brand-support .text-content {
+    width: 100%;
+    height: 90%;
+  }
+  .franchise section.brand-support .text-content .title h1 {
+    font-family: "TCCM";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.brand-support .text-content .desc p {
+    font-family: "TCCM";
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .franchise section.enquiry-form {
+    padding: 0 10%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .franchise section.enquiry-form .title-wrap h1 {
+    font-family: "TCCM";
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+  }
+  .franchise section.enquiry-form .form-wrap {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .franchise section.enquiry-form .form-wrap .form-title {
+    width: 100%;
+  }
+  .franchise section.enquiry-form .form-wrap .form-title h1 {
+    font-family: "TCCM";
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1;
+    margin: 0;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content {
+    width: 100%;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input {
+    width: 100%;
+    font-family: "TCCM";
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input[type="submit"] {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form input[type="submit"]:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+  .franchise section.enquiry-form .form-wrap .form-content form textarea {
+    width: 100%;
+    font-family: "TCCM";
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+    margin: 5px 0;
   }
 }
 

@@ -1,0 +1,753 @@
+.franchise {
+    section {
+        height: 100vh;
+        width: 100%;
+
+        &.intro {
+            .wrap {
+                position: relative;
+                height: inherit;
+                width: 100%;
+                overflow: hidden;
+
+                video {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    height: 120vh;
+                    width: 100%;
+                    transform: translateX(-50%);
+
+                    &.md {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &.modules {
+            background: url("/assets/media/images/image2.png");
+            background-size: cover;
+            background-position: center;
+
+            .title {
+                h1 {
+                    font-family: "TCCM";
+                    font-size: 7rem;
+                    text-transform: uppercase;
+                    color: white;
+                    text-align: center;
+                }
+            }
+
+            .desc {
+                &.table {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+
+                    table,
+                    th,
+                    td {
+                        border: 1px solid white;
+                        color: white;
+                    }
+
+                    table th,
+                    table td {
+                        padding: 1vw 5vw;
+                    }
+
+                    table {
+                        th {
+                            font-weight: 600;
+                            background-color: rgba(255, 255, 255, 0.2);
+                        }
+
+                        tr td {
+                            &:first-child {
+                                font-weight: 600;
+                                background-color: rgba(255, 255, 255, 0.2);
+                            }
+                        }
+                    }
+
+                    @media screen and (min-width:576px) {
+
+                        table th,
+                        table td {
+                            padding: 1vw 5vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.pre-req {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            padding: 0 10%;
+
+            .image-content {
+                width: 70%;
+                height: 90%;
+
+                .wrap {
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .gradient {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: inherit;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 19%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 1) 100%);
+                    }
+                }
+            }
+
+            .text-content {
+                width: 70%;
+                height: 90%;
+
+                .title {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 5rem;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                }
+
+                .desc {
+                    ul {
+                        list-style-type: square;
+
+                        li {
+                            font-family: "TCCM";
+                            font-size: 1.6rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.brand-support {
+            background: url("/assets/media/images/image bg bw.png");
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            padding: 0 10%;
+
+            .image-content {
+                width: 70%;
+                height: 90%;
+
+                .wrap {
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .gradient {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: inherit;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 19%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 1) 100%);
+                    }
+                }
+            }
+
+            .text-content {
+                width: 70%;
+                height: 90%;
+
+                .title {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 5rem;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                }
+
+                .desc {
+                    p {
+                        font-family: "TCCM";
+                        font-size: 1.6rem;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        &.enquiry-form {
+            padding: 0 20%;
+
+            .title-wrap {
+                h1 {
+                    font-family: "TCCM";
+                    font-size: 7rem;
+                    text-transform: uppercase;
+                    color: white;
+                    text-align: center;
+                }
+            }
+
+            .form-wrap {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .form-title {
+                    width: 50%;
+
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 7rem;
+                        text-transform: uppercase;
+                        color: white;
+                        line-height: 1;
+                        margin: 0;
+                    }
+                }
+
+                .form-content {
+                    width: 50%;
+
+                    form {
+                        input {
+                            width: 100%;
+                            font-family: "TCCM";
+                            font-size: 1.4rem;
+                            text-transform: uppercase;
+                            color: white;
+                            background: none;
+                            outline: none;
+                            border: none;
+                            background-color: rgba(255, 255, 255, 0.2);
+                            border-bottom: 1px solid white;
+                            padding: 5px 10px;
+                            margin: 5px 0;
+
+                            &[type="text"] {}
+
+                            &[type="number"] {}
+
+                            &[type="submit"] {
+                                background-color: transparent;
+                                border: 1px solid white;
+                                color: white;
+
+                                &:hover {
+                                    background-color: white;
+                                    border: 1px solid black;
+                                    color: black;
+
+                                }
+                            }
+                        }
+
+                        textarea {
+                            width: 100%;
+                            font-family: "TCCM";
+                            font-size: 1.4rem;
+                            text-transform: uppercase;
+                            color: white;
+                            background: none;
+                            outline: none;
+                            border: none;
+                            background-color: rgba(255, 255, 255, 0.2);
+                            border-bottom: 1px solid white;
+                            padding: 5px 10px;
+                            margin: 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .franchise {
+        section {
+            &.pre-req {
+                display: block;
+                width: 100%;
+                height: 100vh;
+                padding: 0 10%;
+
+                .image-content {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    height: auto;
+                    width: 50%;
+
+                    .wrap {
+                        height: 40%;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .gradient {
+                            display: none;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 100%;
+                    height: 90%;
+
+                    .title {
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+
+                    .desc {
+                        ul {
+                            list-style-type: square;
+
+                            li {
+                                font-family: "TCCM";
+                                font-size: 1.3rem;
+                                text-transform: uppercase;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.modules {
+                background: url("/assets/media/images/image2.png");
+                background-size: cover;
+                background-position: center;
+    
+                .title {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 5rem;
+                        text-transform: uppercase;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+            &.brand-support {
+                background: url("/assets/media/images/image bg bw.png");
+                background-size: cover;
+                background-position: center;
+
+                display: block;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 100vh;
+                padding: 0 10%;
+
+                .image-content {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    height: auto;
+                    width: 50%;
+
+                    .wrap {
+                        height: 40%;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .gradient {
+                            display: none;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 100%;
+                    height: 90%;
+
+                    .title {
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 5rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+
+                    .desc {
+                        p {
+                            font-family: "TCCM";
+                            font-size: 1.6rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            &.enquiry-form {
+                padding: 0 10%;
+
+                .title-wrap {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 7rem;
+                        text-transform: uppercase;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+
+                .form-wrap {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+
+                    .form-title {
+                        width: 100%;
+
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 7rem;
+                            text-transform: uppercase;
+                            color: white;
+                            line-height: 1;
+                            margin: 0;
+                        }
+                    }
+
+                    .form-content {
+                        width: 100%;
+
+                        form {
+                            input {
+                                width: 100%;
+                                font-family: "TCCM";
+                                font-size: 1.4rem;
+                                text-transform: uppercase;
+                                color: white;
+                                background: none;
+                                outline: none;
+                                border: none;
+                                background-color: rgba(255, 255, 255, 0.2);
+                                border-bottom: 1px solid white;
+                                padding: 5px 10px;
+                                margin: 5px 0;
+
+                                &[type="text"] {}
+
+                                &[type="number"] {}
+
+                                &[type="submit"] {
+                                    background-color: transparent;
+                                    border: 1px solid white;
+                                    color: white;
+
+                                    &:hover {
+                                        background-color: white;
+                                        border: 1px solid black;
+                                        color: black;
+
+                                    }
+                                }
+                            }
+
+                            textarea {
+                                width: 100%;
+                                font-family: "TCCM";
+                                font-size: 1.4rem;
+                                text-transform: uppercase;
+                                color: white;
+                                background: none;
+                                outline: none;
+                                border: none;
+                                background-color: rgba(255, 255, 255, 0.2);
+                                border-bottom: 1px solid white;
+                                padding: 5px 10px;
+                                margin: 5px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .franchise {
+        section {
+            &.intro {
+                video {
+                    position: absolute;
+                    top: 50% !important;
+                    left: 0 !important;
+                    width: 100% !important;
+                    height: auto !important;
+                    transform: translateY(-44%) !important;
+
+                    &.md {
+                        display: block !important;
+                    }
+
+                    &.lg {
+                        display: none;
+                    }
+                }
+            }
+
+            &.pre-req {
+                display: block;
+                width: 100%;
+                height: 100vh;
+                padding: 0 10%;
+
+                .image-content {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    height: auto;
+                    width: 70%;
+
+                    .wrap {
+                        height: 40%;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .gradient {
+                            display: none;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 100%;
+                    height: 90%;
+
+                    .title {
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+
+                    .desc {
+                        ul {
+                            list-style-type: square;
+
+                            li {
+                                font-family: "TCCM";
+                                font-size: 1rem;
+                                text-transform: uppercase;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.brand-support {
+
+                height: fit-content;
+                background: url("/assets/media/images/image bg bw.png");
+                background-size: cover;
+                background-position: center;
+
+                display: block;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 100vh;
+                padding: 0 10%;
+
+                .image-content {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    height: auto;
+                    width: 70%;
+
+                    .wrap {
+                        height: 40%;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .gradient {
+                            display: none;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 100%;
+                    height: 90%;
+
+                    .title {
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 3rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+
+                    .desc {
+                        p {
+                            font-family: "TCCM";
+                            font-size: 1rem;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            &.enquiry-form {
+                padding: 0 10%;
+                height: fit-content;
+                .title-wrap {
+                    h1 {
+                        font-family: "TCCM";
+                        font-size: 3rem;
+                        text-transform: uppercase;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+
+                .form-wrap {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+
+                    .form-title {
+                        width: 100%;
+
+                        h1 {
+                            font-family: "TCCM";
+                            font-size: 2rem;
+                            text-transform: uppercase;
+                            color: white;
+                            line-height: 1;
+                            margin: 0;
+                        }
+                    }
+
+                    .form-content {
+                        width: 100%;
+
+                        form {
+                            input {
+                                width: 100%;
+                                font-family: "TCCM";
+                                font-size: 1.2rem;
+                                text-transform: uppercase;
+                                color: white;
+                                background: none;
+                                outline: none;
+                                border: none;
+                                background-color: rgba(255, 255, 255, 0.2);
+                                border-bottom: 1px solid white;
+                                padding: 5px 10px;
+                                margin: 5px 0;
+
+                                &[type="text"] {}
+
+                                &[type="number"] {}
+
+                                &[type="submit"] {
+                                    background-color: transparent;
+                                    border: 1px solid white;
+                                    color: white;
+
+                                    &:hover {
+                                        background-color: white;
+                                        border: 1px solid black;
+                                        color: black;
+
+                                    }
+                                }
+                            }
+
+                            textarea {
+                                width: 100%;
+                                font-family: "TCCM";
+                                font-size: 1.2rem;
+                                text-transform: uppercase;
+                                color: white;
+                                background: none;
+                                outline: none;
+                                border: none;
+                                background-color: rgba(255, 255, 255, 0.2);
+                                border-bottom: 1px solid white;
+                                padding: 5px 10px;
+                                margin: 5px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
